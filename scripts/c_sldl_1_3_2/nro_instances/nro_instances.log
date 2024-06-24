@@ -1,0 +1,16 @@
+participant:  28
+corriendo en PC gamer:
+Window size (sec):  11.0
+step (sec):  8.25
+overlap:  True
+perc. of overlap:  25.0
+overlap duration (sec):  2.75
+Nearest multiple of 16 to 11000 is: 11008
+Nearest multiple of 16 to 8250 is: 8256
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+Window size (sec):  11.008
+step (sec):  8.256
+overlap:  True
+perc. of overlap:  25.0
+overlap duration (sec):  2.752
+Number of windows / instances:  149

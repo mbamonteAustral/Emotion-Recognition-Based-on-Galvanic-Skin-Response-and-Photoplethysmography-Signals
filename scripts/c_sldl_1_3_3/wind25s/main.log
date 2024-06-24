@@ -1,0 +1,1138 @@
+2024-03-20 19:17:43.827335: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-20 19:17:43.883073: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-20 19:17:43.883309: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-20 19:17:43.883664: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-20 19:17:43.884409: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-20 19:17:43.884582: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-20 19:17:43.884736: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-20 19:17:44.302104: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-20 19:17:44.302319: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-20 19:17:44.302481: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-20 19:17:44.302620: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5955 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Ti, pci bus id: 0000:2b:00.0, compute capability: 8.6
+    
+    
+-------------------------------
+participant:  1
+-------------------------------
+    
+    
+participant:  1
+Window size (sec):  25.0
+step (sec):  12.5
+overlap:  True
+perc. of overlap:  50.0
+overlap duration (sec):  12.5
+Nearest multiple of 16 to 25000 is: 24992
+Nearest multiple of 16 to 12500 is: 12496
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+/home/marcos/Dropbox (Maestral)/c_sldl_1_3_3/functions.py:880: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'DecisionTreeClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'DecisionTreeClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'DecisionTreeClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'DecisionTreeClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'DecisionTreeClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'DecisionTreeClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'DecisionTreeClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (8, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'DecisionTreeClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'DecisionTreeClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (8, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+------------- Evaluating model --------------
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (9, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (8, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (8, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+------------- Evaluating model --------------
+-----------Exception computing performance ----------------
+
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 686, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 382, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/svm/_base.py", line 182, in fit
+    y = self._validate_targets(y)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/svm/_base.py", line 739, in _validate_targets
+    raise ValueError(
+ValueError: The number of classes has to be greater than one; got 1 class
+
+-------------------------------------
+    
+    
+-------------------------------
+LAST participant's saved data: 
+30
+-------------------------------
+    
+    
+Saving performance metrics in csv files...
+Performance metrics already saved in csv files
+---------------------------
+KNN performance:
+[[0.50347826 0.74285714 0.90833333 0.57542472 0.74027149        nan
+         nan        nan 0.6               nan]
+ [0.4544664  0.73571429 0.89722222 0.52658538 0.71017534        nan
+         nan        nan 0.7               nan]
+ [0.80347826 0.89285714 0.94305556 0.87542472 0.89948718        nan
+         nan        nan 0.2               nan]
+ [0.3357764  0.67142857 0.83055556 0.4649341  0.64936813        nan
+         nan        nan 0.7               nan]
+ [0.73972956 0.92053571 0.9        0.91246751 0.86401099 0.33240683
+  0.65267857 0.82638889 0.43617605 0.65667582]
+ [       nan        nan        nan 0.9               nan        nan
+         nan        nan 0.3               nan]
+ [       nan        nan        nan 0.5               nan        nan
+         nan        nan 0.9               nan]
+ [1.         1.         1.         1.         1.         0.74018069
+  0.88690476 0.90694444 0.8737004  0.8668315 ]
+ [       nan        nan        nan 0.9               nan        nan
+         nan        nan 0.88708287        nan]
+ [       nan        nan        nan 0.49354143        nan        nan
+         nan        nan 0.6               nan]
+ [       nan        nan        nan 0.2               nan        nan
+         nan        nan 0.9               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.65745342 0.85535714 0.93333333 0.75254824 0.82197479        nan
+         nan        nan 0.2               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.37934783 0.7125     0.87777778 0.48708287 0.68161765        nan
+         nan        nan 0.6               nan]
+ [0.5        0.75       0.93194444 0.5        0.73159314        nan
+         nan        nan 0.7               nan]
+ [       nan        nan        nan 0.7               nan        nan
+         nan        nan 0.5               nan]
+ [       nan        nan        nan 0.3               nan 0.54283597
+  0.79910714 0.89861111 0.65037556 0.76032051]
+ [0.19184783 0.60535714 0.85416667 0.26425211 0.57534314        nan
+         nan        nan 0.6               nan]
+ [       nan        nan        nan 0.3               nan        nan
+         nan        nan 0.2               nan]
+ [0.56020067 0.80446429 0.90833333 0.64876754 0.76453431        nan
+         nan        nan 0.5               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]]
+KNN mean:
+[0.55688897 0.7900974  0.90770202 0.59479098 0.76712511 0.5384745
+ 0.77956349 0.87731481 0.58143868 0.76127595]
+---------------------------
+---------------------------
+DT performance:
+[[0.62719368 0.82053571 0.875      0.74199814 0.77218703        nan
+         nan        nan 0.7               nan]
+ [0.26621854 0.67053571 0.82083333 0.38451543 0.65327381        nan
+         nan        nan 0.4               nan]
+ [0.86931112 0.92857143 0.94444444 0.95976143 0.92461538 0.1576087
+         nan        nan 0.3               nan]
+ [0.36518373 0.69642857 0.78333333 0.59136373 0.64956798        nan
+         nan        nan 0.6               nan]
+ [0.67992095 0.87232143 0.92222222 0.80576993 0.84552036 0.29130435
+  0.60446429 0.81944444 0.35976143 0.60494048]
+ [       nan        nan        nan 0.7               nan        nan
+         nan        nan 0.3               nan]
+ [       nan        nan        nan 0.4               nan        nan
+         nan        nan 0.8               nan]
+ [0.7426087  0.90446429 0.94166667 0.86329269 0.87372549 0.85047995
+  0.92738095 0.94305556 0.9217592  0.92391608]
+ [       nan        nan        nan 0.7               nan        nan
+         nan        nan 0.48708287        nan]
+ [       nan        nan        nan 0.2               nan        nan
+         nan        nan 0.5               nan]
+ [0.23408385        nan        nan 0.48708287        nan        nan
+         nan        nan 0.9               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.55533597 0.77410714 0.90972222 0.67320631 0.71399698        nan
+         nan        nan 0.8               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.42336957 0.71875    0.88611111 0.38708287 0.69244048        nan
+         nan        nan 0.47905694        nan]
+ [0.5875     0.74821429 0.89722222 0.5558747  0.72642534        nan
+         nan        nan 0.4               nan]
+ [       nan        nan        nan 0.5               nan        nan
+         nan        nan 0.6               nan]
+ [       nan        nan        nan 0.38708287        nan 0.82173913
+  0.88035714 0.93055556 0.82204566 0.86285714]
+ [0.19582298 0.69285714 0.85138889 0.49769895 0.63193978 0.52596154
+         nan        nan 0.6               nan]
+ [       nan        nan        nan 0.48708287        nan        nan
+         nan        nan 0.29354143        nan]
+ [0.44850114 0.73660714 0.90972222 0.74780811 0.72441365        nan
+         nan        nan 0.29354143        nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]]
+DT mean:
+[0.49958752 0.77849026 0.88560606 0.58261163 0.74619148 0.52941873
+ 0.80406746 0.89768519 0.55562047 0.7972379 ]
+---------------------------
+---------------------------
+RF performance:
+[[0.68173913 0.77946429 0.90972222 0.72447217 0.76521197        nan
+         nan        nan 0.8               nan]
+ [0.34921543 0.72232143 0.86527778 0.53400337 0.69247549        nan
+         nan        nan 0.6               nan]
+ [0.83992095 0.91071429 0.94305556 0.90688672 0.90734432        nan
+         nan        nan 0.1               nan]
+ [0.40734353 0.75803571 0.84305556 0.56211283 0.74109432        nan
+         nan        nan 0.7               nan]
+ [0.61620553 0.86696429 0.90972222 0.90148404 0.8268315  0.13240683
+  0.62410714 0.84166667 0.23617605 0.57905812]
+ [       nan        nan        nan 0.9               nan        nan
+         nan        nan 0.4               nan]
+ [       nan        nan        nan 0.4               nan        nan
+         nan        nan 0.9               nan]
+ [0.76086957 0.88571429 0.95416667 0.89354143 0.85975867 0.77939612
+  0.8797619  0.89583333 0.8490078  0.85567766]
+ [       nan        nan        nan 0.9               nan        nan
+         nan        nan 0.48708287        nan]
+ [       nan        nan        nan 0.49354143        nan        nan
+         nan        nan 0.7               nan]
+ [       nan        nan        nan 0.4               nan        nan
+         nan        nan 0.9               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.44495342 0.79910714 0.91111111 0.63867168 0.74903361        nan
+         nan        nan 0.7               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.32336957 0.60625    0.84166667 0.4806243  0.55495098        nan
+         nan        nan 0.5               nan]
+ [0.59359684 0.86785714 0.95277778 0.5558747  0.85321267        nan
+         nan        nan 0.6               nan]
+ [       nan        nan        nan 0.6               nan        nan
+         nan        nan 0.3               nan]
+ [       nan        nan        nan 0.4               nan 0.53097826
+  0.74285714 0.875      0.5992149  0.72152311]
+ [0.55784897 0.7375     0.89861111 0.5590068  0.72122549 0.5875
+         nan        nan 0.79354143        nan]
+ [       nan        nan        nan 0.3               nan        nan
+         nan        nan 0.5               nan]
+ [0.76963572 0.83035714 0.92083333 0.7275448  0.82698718        nan
+         nan        nan 0.3               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]]
+RF mean:
+[0.57679079 0.79675325 0.90454545 0.62514549 0.77255693 0.5075703
+ 0.74890873 0.87083333 0.57710648 0.71875296]
+---------------------------
+---------------------------
+SVM performance:
+[[0.         0.5        0.83055556 0.         0.4532598         nan
+         nan        nan 0.7               nan]
+ [0.         0.5        0.81944444 0.         0.44995098        nan
+         nan        nan 0.7               nan]
+ [0.         0.5        0.81944444 0.         0.44995098        nan
+         nan        nan 0.2               nan]
+ [0.         0.5        0.80833333 0.         0.44664216        nan
+         nan        nan 0.7               nan]
+ [0.         0.5        0.81944444 0.         0.44995098 0.
+  0.5        0.84166667 0.         0.45656863]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan 0.3               nan]
+ [       nan        nan        nan 0.6               nan        nan
+         nan        nan        nan        nan]
+ [0.         0.5        0.85277778 0.         0.45987745 0.
+  0.5        0.78472222 0.         0.43952381]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan 0.2               nan]
+ [       nan        nan        nan 0.3               nan        nan
+         nan        nan 0.6               nan]
+ [       nan        nan        nan 0.1               nan        nan
+         nan        nan        nan        nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.         0.5        0.86388889 0.         0.46318627        nan
+         nan        nan 0.2               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.         0.5        0.88611111 0.         0.46980392        nan
+         nan        nan 0.6               nan]
+ [0.         0.5        0.86388889 0.         0.46318627        nan
+         nan        nan 0.7               nan]
+ [       nan        nan        nan 0.7               nan        nan
+         nan        nan 0.5               nan]
+ [       nan        nan        nan 0.3               nan 0.
+  0.5        0.84166667 0.         0.45656863]
+ [0.         0.5        0.85277778 0.         0.45987745        nan
+         nan        nan 0.1               nan]
+ [       nan        nan        nan 0.3               nan        nan
+         nan        nan 0.4               nan]
+ [0.         0.5        0.86388889 0.         0.46318627        nan
+         nan        nan 0.3               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]]
+SVM mean:
+[0.         0.5        0.84368687 0.13529412 0.45717023 0.
+ 0.5        0.82268519 0.36470588 0.45088702]
+---------------------------
+---------------------------
+GBM performance:
+[[ 0.62931112  0.83571429  0.93194444  0.72134007  0.81975867         nan
+          nan         nan  0.7                nan]
+ [ 0.25533597  0.63571429  0.85416667  0.29258201  0.59818816         nan
+          nan         nan  0.5                nan]
+ [ 0.8826087   0.94285714  0.96666667  0.91213203  0.94785714         nan
+          nan         nan  0.2                nan]
+ [ 0.14180124  0.54642857  0.79444444  0.07071068  0.53129417         nan
+          nan         nan  0.7                nan]
+ [ 0.42806324  0.70446429  0.875       0.49301017  0.67644985 -0.0298913
+   0.48125     0.80833333  0.          0.44620098]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan  0.3                nan]
+ [        nan         nan         nan  0.5                nan         nan
+          nan         nan         nan         nan]
+ [ 0.7426087   0.89285714  0.95416667  0.80471404  0.886546    0.81134952
+   0.90238095  0.93194444  0.89246988  0.90391608]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan  0.2                nan]
+ [        nan         nan         nan  0.4                nan         nan
+          nan         nan  0.6                nan]
+ [        nan         nan         nan  0.19354143         nan         nan
+          nan         nan         nan         nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.28408385  0.70535714  0.89861111  0.3590068   0.67945028         nan
+          nan         nan  0.7                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.3625      0.68125     0.89722222  0.4         0.67164216         nan
+          nan         nan  0.58660254         nan]
+ [ 0.46        0.74285714  0.91944444  0.49258201  0.71108032         nan
+          nan         nan  0.5                nan]
+ [        nan         nan         nan  0.7                nan         nan
+          nan         nan  0.5                nan]
+ [        nan         nan         nan  0.48708287         nan  0.53097826
+   0.74375     0.90972222  0.58284271  0.75747549]
+ [ 0.10434783  0.56160714  0.85277778  0.16425211  0.52531863  0.6
+          nan         nan  0.6                nan]
+ [        nan         nan         nan  0.39354143         nan         nan
+          nan         nan  0.3                nan]
+ [ 0.46923913  0.73660714  0.90972222  0.53400337  0.72441365         nan
+          nan         nan  0.4                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]]
+GBM mean:
+[0.43271816 0.72597403 0.89583333 0.46579406 0.70654537 0.47810912
+ 0.70912698 0.88333333 0.48599501 0.70253085]
+---------------------------
+---------------------------
+BDDAE performance:
+[[ 0.20132456  0.59        0.82777778  0.3567848   0.58588069 -0.00588235
+   0.49705882  0.93888889  0.          0.48420168]
+ [ 0.39620862  0.7         0.85555556  0.54423049  0.68764912 -0.00588235
+   0.49705882  0.93888889  0.          0.48420168]
+ [ 0.27372275  0.61666667  0.82777778  0.46983988  0.63078599 -0.08177592
+   0.45625     0.81111111  0.          0.44697559]
+ [ 0.39100794  0.69        0.83888889  0.57351033  0.69031607  0.
+   0.5         0.94444444  0.          0.48571429]
+ [ 0.32700513  0.68        0.82222222  0.55838818  0.6576883  -0.01646477
+   0.49666667  0.76111111  0.122444    0.46888623]
+ [        nan         nan         nan         nan         nan -0.01764706
+   0.49117647  0.92777778  0.          0.48117647]
+ [-0.00588235  0.49705882  0.93888889  0.          0.48420168         nan
+          nan         nan         nan         nan]
+ [ 0.67312217  0.82666667  0.91111111  0.80681705  0.8362943   0.17058124
+   0.58392857  0.72777778  0.45379342  0.57658665]
+ [        nan         nan         nan         nan         nan -0.041
+   0.48125     0.85555556  0.          0.46076203]
+ [ 0.18235294  0.59117647  0.93888889  0.2         0.58403361  0.
+   0.5         0.94444444  0.          0.48571429]
+ [ 0.79519231  0.93125     0.95555556  0.92422897  0.89729839         nan
+          nan         nan         nan         nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.30369231  0.653125    0.88888889  0.40438972  0.64606176 -0.065
+   0.471875    0.83888889  0.          0.4559492 ]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [-0.049       0.478125    0.85        0.          0.45915775 -0.01176471
+   0.49411765  0.93333333  0.          0.48268908]
+ [ 0.37992308  0.684375    0.90555556  0.51210722  0.68069993 -0.008
+   0.49411765  0.93333333  0.          0.4825974 ]
+ [-0.00588235  0.49705882  0.93888889  0.          0.48420168 -0.00588235
+   0.49705882  0.93888889  0.          0.48420168]
+ [-0.00326542  0.52058824  0.89444444  0.09074852  0.49162424  0.24812834
+   0.60666667  0.83333333  0.4141338   0.61123137]
+ [-0.01271082  0.49666667  0.80555556  0.05163978  0.45953233  0.
+   0.5         0.88888889  0.          0.47058824]
+ [ 0.10261693  0.57352941  0.90555556  0.19074852  0.54456542 -0.02297326
+   0.48235294  0.91111111  0.          0.47626337]
+ [ 0.73015803  0.9         0.93888889  0.88933497  0.86401576  0.19411765
+   0.59705882  0.95        0.2         0.58705882]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]]
+BDDAE mean:
+[0.27526975 0.64272275 0.88496732 0.38663344 0.628471   0.01944438
+ 0.5086257  0.8869281  0.07002184 0.49557636]
+---------------------------
+---------------------------
+DUMMY performance:
+[[0.         0.5        0.83055556 0.         0.4532598         nan
+         nan        nan 0.7               nan]
+ [0.         0.5        0.81944444 0.         0.44995098        nan
+         nan        nan 0.7               nan]
+ [0.         0.5        0.81944444 0.         0.44995098        nan
+         nan        nan 0.2               nan]
+ [0.         0.5        0.80833333 0.         0.44664216        nan
+         nan        nan 0.7               nan]
+ [0.         0.5        0.81944444 0.         0.44995098 0.
+  0.5        0.84166667 0.         0.45656863]
+ [       nan        nan        nan 0.9               nan        nan
+         nan        nan 0.3               nan]
+ [       nan        nan        nan 0.6               nan        nan
+         nan        nan 0.9               nan]
+ [0.         0.5        0.85277778 0.         0.45987745 0.
+  0.5        0.78472222 0.         0.43952381]
+ [       nan        nan        nan 0.9               nan        nan
+         nan        nan 0.2               nan]
+ [       nan        nan        nan 0.3               nan        nan
+         nan        nan 0.6               nan]
+ [       nan        nan        nan 0.1               nan        nan
+         nan        nan 0.9               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.         0.5        0.86388889 0.         0.46318627        nan
+         nan        nan 0.2               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.         0.5        0.88611111 0.         0.46980392        nan
+         nan        nan 0.6               nan]
+ [0.         0.5        0.86388889 0.         0.46318627        nan
+         nan        nan 0.7               nan]
+ [       nan        nan        nan 0.7               nan        nan
+         nan        nan 0.5               nan]
+ [       nan        nan        nan 0.3               nan 0.
+  0.5        0.84166667 0.         0.45656863]
+ [0.         0.5        0.85277778 0.         0.45987745        nan
+         nan        nan 0.1               nan]
+ [       nan        nan        nan 0.3               nan        nan
+         nan        nan 0.4               nan]
+ [0.         0.5        0.86388889 0.         0.46318627        nan
+         nan        nan 0.3               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]]
+DUMMY mean:
+[0.         0.5        0.84368687 0.21578947 0.45717023 0.
+ 0.5        0.82268519 0.42105263 0.45088702]
+---------------------------
+Current folder: /home/marcos/Dropbox (Maestral)/c_sldl_1_3_3
+-------------------------------------
+----- RESULTS from .csv files ------
+-------------------------------------
+---------------------------
+ALG Means: 
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.87  0.96  0.95  0.956 0.932 0.536 0.77  0.867 0.655 0.762]
+ [0.711 0.888 0.932 0.835 0.86  0.571 0.766 0.881 0.641 0.764]
+ [0.689 0.876 0.932 0.898 0.843 0.456 0.752 0.869 0.543 0.717]
+ [0.    0.5   0.836 0.    0.455 0.    0.5   0.813 0.    0.448]
+ [0.585 0.799 0.915 0.649 0.781 0.391 0.692 0.87  0.446 0.675]
+ [0.259 0.633 0.877 0.377 0.62  0.026 0.512 0.886 0.079 0.499]
+ [0.    0.5   0.836 0.    0.455 0.    0.5   0.813 0.    0.448]]
+-------------------------------------------------------------
+Standard Deviation of each metric:
+[[0.13  0.04  0.05  0.044 0.068 0.204 0.117 0.04  0.219 0.105]
+ [0.031 0.016 0.01  0.029 0.014 0.28  0.161 0.062 0.281 0.159]
+ [0.072 0.009 0.022 0.004 0.016 0.323 0.128 0.027 0.306 0.138]
+ [0.    0.    0.017 0.    0.005 0.    0.    0.028 0.    0.009]
+ [0.157 0.094 0.04  0.156 0.105 0.421 0.211 0.062 0.446 0.229]
+ [0.23  0.116 0.045 0.272 0.12  0.093 0.044 0.071 0.15  0.048]
+ [0.    0.    0.017 0.    0.005 0.    0.    0.028 0.    0.009]]
+-------------------------------------------------------------
+std_dev/mean [percentage]:
+[[ 15.   4.   5.   5.   7.  38.  15.   5.  33.  14.]
+ [  4.   2.   1.   3.   2.  49.  21.   7.  44.  21.]
+ [ 10.   1.   2.   0.   2.  71.  17.   3.  56.  19.]
+ [  0.   0.   2.   0.   1.   0.   0.   3.   0.   2.]
+ [ 27.  12.   4.  24.  13. 108.  30.   7. 100.  34.]
+ [ 89.  18.   5.  72.  19. 358.   9.   8. 189.  10.]
+ [  0.   0.   2.   0.   1.   0.   0.   3.   0.   2.]]
+-------------------------------------
+Current folder: /home/marcos/Dropbox (Maestral)/c_sldl_1_3_3
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  24.992
+step (sec):  12.496
+overlap:  True
+perc. of overlap:  50.0
+overlap duration (sec):  12.496
+Number of windows / instances:  88
+Elapsed time: 1168.7341740210852 minutes
+Elapsed time: 19.478902900351418 hours

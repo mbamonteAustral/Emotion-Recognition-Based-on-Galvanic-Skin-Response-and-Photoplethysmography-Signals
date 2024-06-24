@@ -1,0 +1,718 @@
+2024-05-22 16:17:02.463014: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-22 16:17:02.514270: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-22 16:17:02.514497: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-22 16:17:02.514857: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-22 16:17:02.515787: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-22 16:17:02.516008: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-22 16:17:02.516201: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-22 16:17:02.917075: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-22 16:17:02.917305: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-22 16:17:02.917495: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-22 16:17:02.917656: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5965 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Ti, pci bus id: 0000:2b:00.0, compute capability: 8.6
+    
+    
+-------------------------------
+participant:  1
+-------------------------------
+    
+    
+participant:  1
+Window size (sec):  11.0
+step (sec):  8.25
+overlap:  True
+perc. of overlap:  25.0
+Nearest multiple of 16 to 11000 is: 11008
+Nearest multiple of 16 to 8250 is: 8256
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:880: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+/home/marcos/Dropbox (Maestral)/c_sldl_3_1_11/functions.py:821: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  combined_df_copy[labels[label]].iloc[index] = combined_df_copy[labels[label]].iloc[index].apply(map_labels_bipartite, args=(number_thresholds, threshold, L, H))
+----- Extracting features...
+/usr/local/lib/python3.10/dist-packages/heartpy/analysis.py:522: UserWarning: Short signal.
+
+---------Warning:---------
+too few peak-peak intervals for (reliable) frequency domain measure computation, frequency output measures are still computed but treat them with caution!
+
+HF is usually computed over a minimum of 1 minute of good signal. LF is usually computed over a minimum of 2 minutes of good signal.VLF is usually computed over a minimum of 5 minutes of good signal.The LF/HF ratio is usually computed over minimum 24 hours, although an absolute minimum of 5 min has also been suggested.
+
+For more info see: 
+Shaffer, F., Ginsberg, J.P. (2017), An Overview of Heart Rate Variability Metrics and Norms.
+
+Task Force of Pacing and Electrophysiology (1996), Heart Rate Variability, in: European Heart Journal, vol.17, issue 3, pp354-381
+
+This warning will not repeat
+  warnings.warn(msg, UserWarning)
+/usr/local/lib/python3.10/dist-packages/scipy/interpolate/_fitpack2.py:280: UserWarning: 
+The maximal number of iterations maxit (set to 20 by the program)
+allowed for finding a smoothing spline with fp=s has been reached: s
+too small.
+There is an approximation returned but the corresponding weighted sum
+of squared residuals does not satisfy the condition abs(fp-s)/s < tol.
+  warnings.warn(message)
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=0, n=53 (35.570%)
+Class=1, n=96 (64.430%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=0, n=56 (37.584%)
+Class=1, n=93 (62.416%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  30
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  11.008
+step (sec):  8.256
+overlap:  True
+perc. of overlap:  25.0
+Number of windows / instances:  149
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.403 0.702 0.717 0.678 0.692 0.194 0.598 0.618 0.567 0.582]
+ [0.459 0.713 0.718 0.697 0.703 0.278 0.696 0.724 0.67  0.692]
+ [0.39  0.683 0.717 0.603 0.685 0.253 0.589 0.645 0.6   0.59 ]
+ [0.    0.5   0.624 0.    0.384 0.    0.5   0.644 0.    0.392]
+ [0.24  0.606 0.698 0.388 0.566 0.128 0.553 0.671 0.302 0.503]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.624 0.    0.384 0.    0.5   0.644 0.    0.392]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+30
+-------------------------------
+    
+    
+---------------------------
+KNN performance:
+[[ 0.24291104  0.62202381  0.6247619   0.61070184  0.61754543  0.25380225
+   0.62083333  0.73809524  0.50112377  0.61372017]
+ [ 0.28471965  0.64414683  0.64380952  0.62178921  0.63266762  0.37010652
+   0.68055556  0.71142857  0.65149169  0.67815631]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.43802545  0.71277778  0.74619048  0.6667927   0.70303964  0.30397782
+   0.65267857  0.65095238  0.6341641   0.64241302]
+ [ 0.33238408  0.66785714  0.6647619   0.65847895  0.6615513   0.51493446
+   0.75714286  0.75857143  0.74740284  0.75377128]
+ [ 0.30829354  0.64861111  0.6847619   0.61081747  0.64518189 -0.00735849
+   0.49732143  0.49619048  0.48664992  0.49129498]
+ [ 0.49130672  0.725       0.79809524  0.68541262  0.73878176  0.2734987
+   0.63833333  0.65095238  0.62961955  0.63406679]
+ [ 0.06624965  0.53136364  0.63809524  0.35456999  0.50558582  0.23919618
+   0.61227273  0.71190476  0.47752074  0.59910581]
+ [ 0.40262857  0.70446429  0.69809524  0.68454683  0.69183231  0.17784063
+   0.58928571  0.59        0.58016471  0.58465614]
+ [ 0.08333785  0.54166667  0.57190476  0.49745145  0.53291151  0.48645146
+   0.73722222  0.76428571  0.71338304  0.73712112]
+ [ 0.58150429  0.78722222  0.80619048  0.77728628  0.78937312  0.41355042
+   0.70555556  0.72571429  0.68980782  0.70332184]
+ [ 0.2091894   0.60168651  0.63238095  0.55896648  0.5953185   0.17367408
+   0.58581349  0.60428571  0.54144886  0.57106825]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.1357144   0.565       0.67095238  0.37917545  0.53822714  0.01453123
+   0.505       0.53809524  0.42603979  0.48421013]
+ [ 0.43137233  0.71222222  0.73095238  0.69276419  0.71035475  0.42904076
+   0.70666667  0.75666667  0.67926873  0.71126718]
+ [ 0.60014022  0.80347222  0.80571429  0.79653254  0.79808183  0.30152266
+   0.65009921  0.67190476  0.6209754   0.64402987]
+ [ 0.20329482  0.57948718  0.85857143  0.26986706  0.58563614  0.32288209
+   0.66547619  0.66428571  0.66266644  0.65891959]
+ [ 0.04352038  0.52318182  0.65142857  0.33737668  0.50680098  0.43356832
+   0.71378968  0.7247619   0.70229512  0.7133017 ]
+ [ 0.24960559  0.615       0.69190476  0.52359094  0.61036231  0.09362288
+   0.54833333  0.6052381   0.43966566  0.53297373]
+ [-0.00997718  0.49469697  0.73809524  0.09989643  0.45580225 -0.11242791
+   0.44285714  0.44333333  0.37769934  0.41950549]
+ [ 0.09621385  0.54910714  0.54428571  0.52567912  0.53478623  0.24793768
+   0.61888889  0.67142857  0.56899245  0.6138369 ]
+ [ 0.05584666  0.52599206  0.55        0.49017548  0.51805345  0.07607994
+   0.54318182  0.6847619   0.33734175  0.52179888]
+ [ 0.38425178  0.69583333  0.7047619   0.65380826  0.68597865  0.56937592
+   0.78482143  0.78571429  0.78218997  0.78390595]
+ [ 0.12415748  0.56448413  0.57047619  0.51530318  0.54212233  0.13848977
+   0.5702381   0.57047619  0.56521456  0.56657967]
+ [ 0.415143    0.69477273  0.77190476  0.65617314  0.7023741   0.46468924
+   0.73303571  0.73142857  0.70688007  0.72011866]
+ [ 0.08344658  0.54333333  0.57761905  0.4772063   0.52902724  0.47520172
+   0.72833333  0.75857143  0.70371781  0.73127154]
+ [ 0.26536948  0.62666667  0.6852381   0.53420143  0.61306399  0.17900806
+   0.58759921  0.60285714  0.54999733  0.57768701]
+ [ 0.40264866  0.70222222  0.71666667  0.678492    0.69181514  0.19361208
+   0.59777778  0.61809524  0.56650108  0.5823516 ]]
+KNN mean:
+[0.26620378 0.63008815 0.68375458 0.55219446 0.62062598 0.27026186
+ 0.63358128 0.66269231 0.59008548 0.62578668]
+---------------------------
+---------------------------
+DT performance:
+[[ 0.31992617  0.63839286  0.64333333  0.66545008  0.62917678  0.29467052
+   0.67007576  0.75285714  0.54870906  0.64431628]
+ [ 0.19891514  0.55962302  0.56952381  0.57136851  0.55088923  0.40460109
+   0.67722222  0.71285714  0.63981899  0.677762  ]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.36156784  0.66111111  0.6847619   0.69083133  0.6525885   0.25111523
+   0.64642857  0.6452381   0.61023909  0.64258832]
+ [ 0.36628461  0.6625      0.66238095  0.66327807  0.65460072  0.47972076
+   0.72232143  0.71952381  0.73354973  0.71250398]
+ [ 0.15132473  0.59583333  0.61714286  0.58573854  0.59343984  0.22264116
+   0.59107143  0.59047619  0.58114215  0.58270496]
+ [ 0.42846916  0.72590909  0.75904762  0.72334941  0.72228222  0.51181422
+   0.75944444  0.7652381   0.7585376   0.75273481]
+ [ 0.22594739  0.58977273  0.63619048  0.47466547  0.56835411  0.28506514
+   0.63613636  0.69809524  0.58552727  0.62613395]
+ [ 0.25378997  0.60446429  0.59714286  0.57766881  0.58934455  0.2291333
+   0.68125     0.68428571  0.68422289  0.67679651]
+ [ 0.02947694  0.54027778  0.5447619   0.4842457   0.53268069  0.40878041
+   0.72944444  0.73904762  0.68407909  0.72098198]
+ [ 0.36600768  0.70888889  0.71857143  0.67415256  0.70210862  0.39834612
+   0.67777778  0.70428571  0.64630327  0.67539424]
+ [ 0.15274372  0.53581349  0.55666667  0.48978207  0.52966018  0.34864118
+   0.64583333  0.65047619  0.6152591   0.63724936]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.18870102  0.57227273  0.61761905  0.52614759  0.54969348  0.14856895
+   0.59888889  0.64428571  0.43589716  0.58814384]
+ [ 0.30997106  0.63833333  0.65857143  0.63915238  0.63744747  0.28638952
+   0.65555556  0.69095238  0.62481297  0.64699403]
+ [ 0.51347742  0.77480159  0.78619048  0.74705721  0.77185376  0.56005151
+   0.78154762  0.79142857  0.779547    0.78296212]
+ [ 0.16700047  0.59423077  0.79190476  0.36589432  0.57277335  0.32768983
+   0.65039683  0.6647619   0.6589695   0.64621286]
+ [ 0.22972884  0.62090909  0.67190476  0.57466154  0.61195736  0.16775841
+   0.6046627   0.60333333  0.57602647  0.59213167]
+ [ 0.37646231  0.66388889  0.66380952  0.61676126  0.63652406  0.1758266
+   0.60222222  0.6247619   0.57329482  0.59638945]
+ [ 0.00413595  0.50984848  0.6447619   0.34651964  0.50017817 -0.10993732
+   0.45625     0.4547619   0.43513436  0.44869497]
+ [ 0.1975976   0.625       0.6252381   0.59209738  0.61957936  0.14783465
+   0.55111111  0.57761905  0.53558093  0.54438023]
+ [ 0.13241971  0.5531746   0.56285714  0.53467848  0.54542035  0.15449965
+   0.57954545  0.69095238  0.4574831   0.56756541]
+ [ 0.16482957  0.57539683  0.57761905  0.56757626  0.55406364  0.50520031
+   0.74017857  0.73857143  0.74254827  0.73435581]
+ [ 0.27055458  0.60625     0.61142857  0.59781664  0.59854357  0.28892437
+   0.66944444  0.67714286  0.63039237  0.66549792]
+ [ 0.34785096  0.65909091  0.71952381  0.6538988   0.66271233  0.44888385
+   0.71071429  0.71238095  0.72444495  0.70860671]
+ [ 0.11295625  0.50888889  0.53714286  0.55187572  0.50579883  0.23607196
+   0.64111111  0.65857143  0.55944147  0.62873375]
+ [ 0.06708663  0.52722222  0.56333333  0.52587079  0.50263344  0.16149625
+   0.62668651  0.62428571  0.59716804  0.6170235 ]
+ [ 0.45944602  0.71277778  0.71761905  0.69654226  0.70309063  0.27793498
+   0.69611111  0.72428571  0.66972686  0.69184173]]
+DT mean:
+[0.24602584 0.61402587 0.64380952 0.58219542 0.60374597 0.29275856
+ 0.65390124 0.6746337  0.61876371 0.64648848]
+---------------------------
+---------------------------
+RF performance:
+[[ 0.29093048  0.71577381  0.71904762  0.69431681  0.71331232  0.2578576
+   0.63106061  0.76619048  0.6347133   0.62988467]
+ [ 0.33105729  0.61865079  0.6247619   0.62693772  0.60230565  0.37112198
+   0.61388889  0.63190476  0.6741311   0.61149259]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.38138206  0.70722222  0.73904762  0.66431505  0.6976505   0.29788741
+   0.68214286  0.67952381  0.66511029  0.66282291]
+ [ 0.36972641  0.66428571  0.66380952  0.65832166  0.66033613  0.55901132
+   0.76071429  0.75904762  0.75868139  0.75845238]
+ [ 0.24245306  0.57847222  0.59047619  0.55168363  0.56999381  0.15067567
+   0.5875      0.58428571  0.48987394  0.57534008]
+ [ 0.56077055  0.73545455  0.79285714  0.70111829  0.73692409  0.38217424
+   0.68888889  0.71142857  0.70543373  0.68806285]
+ [ 0.26428155  0.62977273  0.71142857  0.63228879  0.6149124   0.29488993
+   0.67522727  0.75238095  0.57190394  0.66514342]
+ [ 0.2420826   0.64464286  0.63857143  0.6394666   0.63305688  0.32422224
+   0.65        0.65142857  0.62002663  0.64439599]
+ [ 0.11050609  0.54930556  0.58428571  0.56604553  0.53883676  0.29077523
+   0.66944444  0.69809524  0.69890303  0.66668725]
+ [ 0.50763219  0.77222222  0.77904762  0.79374852  0.76283957  0.36204323
+   0.64444444  0.67761905  0.60598562  0.64201233]
+ [ 0.13278432  0.55367063  0.57857143  0.54253581  0.54921832  0.24895543
+   0.65248016  0.67        0.60558583  0.65298977]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.20199332  0.63045455  0.69857143  0.53120872  0.61003599  0.13106168
+   0.59111111  0.62428571  0.55540512  0.58509615]
+ [ 0.30630715  0.71055556  0.71714286  0.56793907  0.70385318  0.34890636
+   0.64666667  0.70380952  0.66788469  0.65166217]
+ [ 0.62350268  0.79166667  0.79857143  0.79350839  0.78533136  0.4464746
+   0.75634921  0.76428571  0.74302508  0.7503197 ]
+ [ 0.20925167  0.54358974  0.81904762  0.26709301  0.52331298  0.35931248
+   0.68005952  0.69714286  0.71765645  0.67192649]
+ [ 0.12513167  0.63068182  0.7252381   0.52808203  0.63259772  0.35800502
+   0.67222222  0.68380952  0.65295738  0.66254935]
+ [ 0.26071014  0.61944444  0.66428571  0.57967571  0.60440496  0.09418853
+   0.52111111  0.57142857  0.56338131  0.51112828]
+ [-0.06297427  0.48560606  0.7047619   0.33150221  0.47653475 -0.06044884
+   0.51071429  0.51095238  0.47791264  0.49870475]
+ [ 0.16450369  0.58214286  0.57714286  0.5668346   0.56577019  0.25647812
+   0.59722222  0.63809524  0.62946114  0.58998462]
+ [ 0.03233384  0.50218254  0.52952381  0.48589084  0.4880941   0.20525111
+   0.56780303  0.69142857  0.36350109  0.56229139]
+ [ 0.40105454  0.64047619  0.65190476  0.50893154  0.62311977  0.5171035
+   0.75357143  0.75142857  0.7782884   0.74921326]
+ [ 0.09783224  0.51884921  0.52333333  0.55139018  0.51219604  0.29825381
+   0.61815476  0.62952381  0.57726417  0.61135498]
+ [ 0.38130202  0.66977273  0.73809524  0.5842921   0.6672357   0.43382414
+   0.75446429  0.75190476  0.76486622  0.74985572]
+ [ 0.14264089  0.54277778  0.58428571  0.46246468  0.53028434  0.38395999
+   0.64777778  0.67142857  0.7062748   0.64669132]
+ [ 0.10199097  0.61777778  0.65285714  0.55928779  0.60149698  0.25630527
+   0.61517857  0.61666667  0.58974468  0.60906136]
+ [ 0.3900813   0.68333333  0.71666667  0.6033215   0.68470595  0.25259175
+   0.58944444  0.6452381   0.59995486  0.59037043]]
+RF mean:
+[0.26189494 0.62841479 0.67397436 0.57662311 0.61878309 0.30080315
+ 0.64529394 0.67435897 0.63145872 0.63990362]
+---------------------------
+---------------------------
+SVM performance:
+[[ 0.33564185  0.66279762  0.67904762  0.60921257  0.64662669  0.
+   0.5         0.75190476  0.          0.42904274]
+ [ 0.01509434  0.50714286  0.55714286  0.03779645  0.36892292  0.
+   0.5         0.61095238  0.          0.37913043]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.          0.5         0.62428571  0.          0.38413043  0.35952563
+   0.67857143  0.6847619   0.6053451   0.65514011]
+ [ 0.20426265  0.60446429  0.59047619  0.53110427  0.56065362  0.32655085
+   0.65892857  0.67095238  0.57179853  0.62519632]
+ [ 0.          0.5         0.59714286  0.          0.37386364  0.05740352
+   0.53035714  0.52380952  0.42944411  0.47751299]
+ [ 0.46083517  0.6975      0.8052381   0.61374486  0.71060794 -0.025
+   0.48888889  0.59761905  0.          0.37344862]
+ [ 0.          0.5         0.6847619   0.          0.40628205  0.
+   0.5         0.69142857  0.          0.40858974]
+ [ 0.25421831  0.62767857  0.62428571  0.61343645  0.61872603  0.04345912
+   0.52053571  0.54285714  0.26780766  0.43881475]
+ [ 0.          0.5         0.59714286  0.          0.37386364  0.33070801
+   0.64777778  0.7247619   0.51123318  0.62709957]
+ [ 0.69375568  0.84944444  0.85285714  0.84594802  0.84539804  0.
+   0.5         0.61095238  0.          0.37913043]
+ [ 0.          0.5         0.58380952  0.          0.36842885  0.
+   0.5         0.57047619  0.          0.36299407]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.          0.5         0.67809524  0.          0.40397436  0.
+   0.5         0.63095238  0.          0.38663043]
+ [ 0.          0.5         0.60428571  0.          0.37663043  0.
+   0.5         0.65761905  0.          0.39663043]
+ [ 0.52537879  0.75684524  0.77952381  0.73329528  0.75606309  0.
+   0.5         0.59047619  0.          0.37114625]
+ [ 0.          0.5         0.85238095  0.          0.46004274  0.
+   0.5         0.58380952  0.          0.36842885]
+ [ 0.          0.5         0.69809524  0.          0.41089744  0.35382069
+   0.66904762  0.69761905  0.6103109   0.65634275]
+ [ 0.          0.5         0.66428571  0.          0.39913043  0.
+   0.5         0.63095238  0.          0.38663043]
+ [ 0.          0.5         0.77857143  0.          0.43758974 -0.07338583
+   0.46339286  0.45        0.19730113  0.3668812 ]
+ [ 0.          0.5         0.51666667  0.          0.34044796  0.
+   0.5         0.63761905  0.          0.38913043]
+ [ 0.          0.5         0.58380952  0.          0.36842885  0.
+   0.5         0.73857143  0.          0.42476923]
+ [-0.02580645  0.48888889  0.56380952  0.          0.36027668  0.62465984
+   0.81339286  0.81285714  0.80932402  0.81101379]
+ [ 0.          0.5         0.54380952  0.          0.35212451 -0.01395349
+   0.49375     0.53666667  0.          0.3490942 ]
+ [ 0.          0.5         0.69809524  0.          0.41089744  0.44645341
+   0.725       0.72428571  0.70801214  0.71681881]
+ [ 0.          0.5         0.62428571  0.          0.38413043  0.
+   0.5         0.60428571  0.          0.37663043]
+ [ 0.          0.5         0.62428571  0.          0.38413043  0.
+   0.5         0.54380952  0.          0.35212451]
+ [ 0.          0.5         0.62428571  0.          0.38413043  0.
+   0.5         0.64428571  0.          0.39163043]]
+SVM mean:
+[0.0947454  0.54595238 0.65501832 0.15325146 0.45716919 0.09347084
+ 0.54575549 0.63324176 0.18117603 0.45769238]
+---------------------------
+---------------------------
+GBM performance:
+[[ 0.35317082  0.66517857  0.67857143  0.63221771  0.65723281  0.32646191
+   0.62840909  0.80571429  0.39057127  0.61349248]
+ [ 0.28976257  0.63700397  0.64380952  0.62442311  0.63274947  0.39220947
+   0.685       0.73190476  0.64071284  0.68551891]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.46577251  0.71166667  0.76571429  0.66140981  0.71208327  0.42360929
+   0.7125      0.71190476  0.69647381  0.7044947 ]
+ [ 0.34162363  0.67232143  0.67        0.6565797   0.66325203  0.4369306
+   0.73214286  0.73238095  0.71243813  0.72681875]
+ [ 0.33342745  0.64097222  0.69190476  0.53960577  0.62335658  0.25149805
+   0.62678571  0.62333333  0.60830862  0.61580024]
+ [ 0.53552037  0.74295455  0.81952381  0.69887908  0.75884027  0.40282785
+   0.69166667  0.73142857  0.65544816  0.6919959 ]
+ [-0.01099544  0.49590909  0.66428571  0.08485281  0.42577043  0.04490741
+   0.51840909  0.69142857  0.13466942  0.45386487]
+ [ 0.25494777  0.62142857  0.61761905  0.61029061  0.61136829  0.41980973
+   0.71785714  0.71809524  0.70098007  0.71313585]
+ [-0.0217315   0.49305556  0.55        0.38682942  0.46589928  0.42903754
+   0.70166667  0.74619048  0.65952228  0.70404597]
+ [ 0.46172112  0.72666667  0.75238095  0.70805693  0.72664469  0.34190564
+   0.65555556  0.71238095  0.58990348  0.65175646]
+ [ 0.16035921  0.59146825  0.63047619  0.48098136  0.56987402  0.18699649
+   0.58938492  0.6252381   0.46992417  0.55406561]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.06936833  0.5275      0.6847619   0.15066213  0.4621608   0.00350027
+   0.50444444  0.60428571  0.18421385  0.43623652]
+ [ 0.16246582  0.57111111  0.65142857  0.35104177  0.52485178  0.27933342
+   0.61555556  0.70380952  0.51290075  0.61061014]
+ [ 0.70180979  0.8375      0.84571429  0.8283134   0.83601864  0.63576034
+   0.81369048  0.8247619   0.80860739  0.81678835]
+ [ 0.15032907  0.55865385  0.84571429  0.21213203  0.55663614  0.36863924
+   0.67609127  0.71142857  0.63350613  0.67267572]
+ [ 0.0136194   0.51045455  0.69142857  0.12944272  0.45162005  0.41431944
+   0.69464286  0.71095238  0.66545409  0.69004376]
+ [ 0.43061625  0.695       0.78428571  0.58078941  0.68977337  0.07183221
+   0.53055556  0.6252381   0.31202014  0.48818794]
+ [ 0.03250415  0.51212121  0.77857143  0.05773503  0.46199145 -0.01935832
+   0.49107143  0.48333333  0.42492656  0.46635842]
+ [ 0.05254499  0.52678571  0.52428571  0.51549686  0.51959303  0.26443769
+   0.61666667  0.7052381   0.48823031  0.5935857 ]
+ [ 0.09627617  0.53690476  0.59047619  0.41606624  0.50173301 -0.012
+   0.49545455  0.73142857  0.          0.4224359 ]
+ [ 0.35867445  0.67053571  0.69142857  0.58456117  0.6461226   0.57026537
+   0.78660714  0.7852381   0.78204793  0.78293274]
+ [ 0.20068631  0.59761905  0.61666667  0.54031156  0.5791716   0.33372056
+   0.66527778  0.67047619  0.65042187  0.66077453]
+ [ 0.23686193  0.60045455  0.75190476  0.35381039  0.57643121  0.45998548
+   0.73035714  0.73142857  0.71198522  0.72210572]
+ [-0.05599454  0.48166667  0.59714286  0.04082483  0.386845    0.40516154
+   0.69388889  0.73142857  0.66056353  0.69036502]
+ [ 0.16911438  0.57555556  0.65857143  0.39255992  0.53735507  0.41705975
+   0.69930556  0.71047619  0.68283475  0.69711293]
+ [ 0.23956377  0.60555556  0.69761905  0.38845486  0.56587216  0.12814066
+   0.55277778  0.67095238  0.30200542  0.5026294 ]]
+GBM mean:
+[0.23161611 0.60792476 0.68824176 0.44716649 0.58243258 0.30680737
+ 0.6471448  0.70117216 0.54148732 0.62953202]
+---------------------------
+---------------------------
+BDDAE performance:
+[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+BDDAE mean:
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------
+---------------------------
+DUMMY performance:
+[[0.         0.5        0.53714286 0.         0.34940711 0.
+  0.5        0.75190476 0.         0.42904274]
+ [0.         0.5        0.55047619 0.         0.3548419  0.
+  0.5        0.61095238 0.         0.37913043]
+ [0.         0.5        0.57047619 0.         0.36299407 0.
+  0.5        0.47       0.         0.31969697]
+ [0.         0.5        0.62428571 0.         0.38413043 0.
+  0.5        0.51666667 0.         0.34044796]
+ [0.         0.5        0.47       0.         0.31969697 0.
+  0.5        0.52333333 0.         0.34341238]
+ [0.         0.5        0.59714286 0.         0.37386364 0.
+  0.5        0.47       0.         0.31969697]
+ [0.         0.5        0.67809524 0.         0.40397436 0.
+  0.5        0.61095238 0.         0.37913043]
+ [0.         0.5        0.6847619  0.         0.40628205 0.
+  0.5        0.69142857 0.         0.40858974]
+ [0.         0.5        0.47       0.         0.31969697 0.
+  0.5        0.53       0.         0.34637681]
+ [0.         0.5        0.59714286 0.         0.37386364 0.
+  0.5        0.61095238 0.         0.37913043]
+ [0.         0.5        0.61761905 0.         0.38163043 0.
+  0.5        0.61095238 0.         0.37913043]
+ [0.         0.5        0.58380952 0.         0.36842885 0.
+  0.5        0.57047619 0.         0.36299407]
+ [0.         0.5        0.63761905 0.         0.38913043 0.
+  0.5        0.51666667 0.         0.34044796]
+ [0.         0.5        0.67809524 0.         0.40397436 0.
+  0.5        0.63095238 0.         0.38663043]
+ [0.         0.5        0.60428571 0.         0.37663043 0.
+  0.5        0.65761905 0.         0.39663043]
+ [0.         0.5        0.59047619 0.         0.37114625 0.
+  0.5        0.59047619 0.         0.37114625]
+ [0.         0.5        0.85238095 0.         0.46004274 0.
+  0.5        0.58380952 0.         0.36842885]
+ [0.         0.5        0.69809524 0.         0.41089744 0.
+  0.5        0.55714286 0.         0.35755929]
+ [0.         0.5        0.66428571 0.         0.39913043 0.
+  0.5        0.63095238 0.         0.38663043]
+ [0.         0.5        0.77857143 0.         0.43758974 0.
+  0.5        0.47       0.         0.31969697]
+ [0.         0.5        0.51666667 0.         0.34044796 0.
+  0.5        0.63761905 0.         0.38913043]
+ [0.         0.5        0.58380952 0.         0.36842885 0.
+  0.5        0.73857143 0.         0.42476923]
+ [0.         0.5        0.57714286 0.         0.36571146 0.
+  0.5        0.47       0.         0.31969697]
+ [0.         0.5        0.54380952 0.         0.35212451 0.
+  0.5        0.54380952 0.         0.35212451]
+ [0.         0.5        0.69809524 0.         0.41089744 0.
+  0.5        0.51666667 0.         0.34044796]
+ [0.         0.5        0.62428571 0.         0.38413043 0.
+  0.5        0.60428571 0.         0.37663043]
+ [0.         0.5        0.62428571 0.         0.38413043 0.
+  0.5        0.54380952 0.         0.35212451]
+ [0.         0.5        0.62428571 0.         0.38413043 0.
+  0.5        0.64428571 0.         0.39163043]]
+DUMMY mean:
+[0.         0.5        0.61704082 0.         0.37990549 0.
+ 0.5        0.58229592 0.         0.36644659]
+---------------------------
+Current folder: /home/marcos/Dropbox (Maestral)/c_sldl_3_1_11
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  11.008
+step (sec):  8.256
+overlap:  True
+perc. of overlap:  25.0
+Number of windows / instances:  149
+---------------------------
+ALG Means: 
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.266 0.63  0.684 0.552 0.621 0.27  0.634 0.663 0.59  0.626]
+ [0.246 0.614 0.644 0.582 0.604 0.293 0.654 0.675 0.619 0.646]
+ [0.262 0.628 0.674 0.577 0.619 0.301 0.645 0.674 0.631 0.64 ]
+ [0.095 0.546 0.655 0.153 0.457 0.093 0.546 0.633 0.181 0.458]
+ [0.232 0.608 0.688 0.447 0.582 0.307 0.647 0.701 0.541 0.63 ]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.617 0.    0.38  0.    0.5   0.582 0.    0.366]]
+Elapsed time: 2.926985764503479 minutes
+Elapsed time: 0.048783096075057986 hours

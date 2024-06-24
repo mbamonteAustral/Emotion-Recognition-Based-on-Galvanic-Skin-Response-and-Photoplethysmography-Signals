@@ -1,0 +1,177 @@
+2024-05-23 07:00:48.835857: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 07:00:48.897392: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 07:00:48.897629: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 07:00:48.897992: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-23 07:00:48.898691: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 07:00:48.898859: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 07:00:48.899011: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 07:00:49.303134: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 07:00:49.303350: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 07:00:49.303511: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 07:00:49.303654: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5965 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Ti, pci bus id: 0000:2b:00.0, compute capability: 8.6
+    
+    
+-------------------------------
+participant:  1
+-------------------------------
+    
+    
+participant:  1
+Window size (sec):  16.0
+step (sec):  12.0
+overlap:  True
+perc. of overlap:  25.0
+overlap duration (sec):  4.0
+Nearest multiple of 16 to 16000 is: 16000
+Nearest multiple of 16 to 12000 is: 12000
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+/home/marcos/Dropbox (Maestral)/c_sldl_1_3_11/functions.py:880: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+
+ValueError: Only one class present in y_true. ROC AUC score is not defined in that case.
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_split.py:680: UserWarning: The least populated class in y has only 6 members, which is less than n_splits=10.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_split.py:680: UserWarning: The least populated class in y has only 6 members, which is less than n_splits=10.
+  warnings.warn(
+arousal and valece = ok
+------------- Evaluating model --------------
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_split.py:680: UserWarning: The least populated class in y has only 6 members, which is less than n_splits=10.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 384, in _score
+    return self._sign * self._score_func(y, y_pred, **self._kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_ranking.py", line 569, in roc_auc_score
+    return _average_binary_score(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_base.py", line 75, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_ranking.py", line 338, in _binary_roc_auc_score
+    raise ValueError(
+ValueError: Only one class present in y_true. ROC AUC score is not defined in that case.
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 384, in _score
+    return self._sign * self._score_func(y, y_pred, **self._kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_ranking.py", line 569, in roc_auc_score
+    return _average_binary_score(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_base.py", line 75, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_ranking.py", line 338, in _binary_roc_auc_score
+    raise ValueError(
+ValueError: Only one class present in y_true. ROC AUC score is not defined in that case.
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 384, in _score
+    return self._sign * self._score_func(y, y_pred, **self._kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_ranking.py", line 569, in roc_auc_score
+    return _average_binary_score(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_base.py", line 75, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_ranking.py", line 338, in _binary_roc_auc_score
+    raise ValueError(
+ValueError: Only one class present in y_true. ROC AUC score is not defined in that case.
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 384, in _score
+    return self._sign * self._score_func(y, y_pred, **self._kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_ranking.py", line 569, in roc_auc_score
+    return _average_binary_score(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_base.py", line 75, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_ranking.py", line 338, in _binary_roc_auc_score
+    raise ValueError(
+ValueError: Only one class present in y_true. ROC AUC score is not defined in that case.
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_split.py:680: UserWarning: The least populated class in y has only 6 members, which is less than n_splits=10.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_split.py:680: UserWarning: The least populated class in y has only 6 members, which is less than n_splits=10.
+  warnings.warn(
+-------------------------------------
+-------------------------------------
+participant:  30
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  16.0
+step (sec):  12.0
+overlap:  True
+perc. of overlap:  25.0
+overlap duration (sec):  4.0
+Number of windows / instances:  100
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.579 0.795 0.87  0.729 0.782   nan   nan   nan 0.4     nan]
+ [0.609 0.807 0.86  0.74  0.772   nan   nan   nan 0.2     nan]
+ [0.497 0.773 0.88  0.818 0.778   nan   nan   nan 0.4     nan]
+ [0.    0.5   0.79  0.    0.441   nan   nan   nan 0.4     nan]
+ [0.643 0.783 0.91  0.677 0.813   nan   nan   nan 0.4     nan]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.79  0.    0.441   nan   nan   nan 0.4     nan]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+30
+-------------------------------
+    
+    
+Traceback (most recent call last):
+  File "/home/marcos/Dropbox (Maestral)/c_sldl_1_3_11/main.py", line 129, in <module>
+    print_results_from_file(print_results=True, show_plot=True)
+  File "/home/marcos/Dropbox (Maestral)/c_sldl_1_3_11/functions.py", line 1362, in print_results_from_file
+    knn_perm = loadtxt(current_folder+'\\'+'knn_perm.csv', delimiter=',')
+  File "/usr/local/lib/python3.10/dist-packages/numpy/lib/npyio.py", line 1042, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.10/dist-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.10/dist-packages/numpy/lib/_datasource.py", line 532, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /home/marcos/Dropbox (Maestral)/c_sldl_1_3_11\knn_perm.csv not found.

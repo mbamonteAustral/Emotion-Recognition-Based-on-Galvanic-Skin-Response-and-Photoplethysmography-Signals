@@ -1,0 +1,120 @@
+2024-05-01 02:06:31.895818: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-01 02:06:31.950124: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-01 02:06:31.950370: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-01 02:06:31.950759: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-01 02:06:31.951458: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-01 02:06:31.951645: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-01 02:06:31.951820: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-01 02:06:32.367802: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-01 02:06:32.368032: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-01 02:06:32.368204: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-01 02:06:32.368351: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5965 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Ti, pci bus id: 0000:2b:00.0, compute capability: 8.6
+    
+    
+-------------------------------
+participant:  1
+-------------------------------
+    
+    
+participant:  1
+Window size (sec):  7.0
+step (sec):  5.25
+overlap:  True
+perc. of overlap:  25.0
+overlap duration (sec):  1.75
+Nearest multiple of 16 to 7000 is: 7008
+Nearest multiple of 16 to 5250 is: 5248
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+ary_accuracy: 0.7471 - val_loss: 0.4547 - val_binary_accuracy: 0.7368
+1/2 [==============>...............] - ETA: 0s2/2 [==============================] - 0s 4ms/step
+predicted [0.7891825  0.8070621  0.627437   0.6294997  0.6643878  0.8794789
+ 0.8364216  0.7206067  0.8876162  0.6889407  0.62245315 0.57357657
+ 0.78562987 0.14831388 0.61295086 0.7855054  0.6039479  0.5901975
+ 0.45969307 0.28181633 0.75827986 0.7681414  0.03528027 0.5648862
+ 0.08736429 0.48273954 0.31188843 0.7185837  0.65782535 0.9429773
+ 0.4427626  0.7043178  0.33978364 0.6732823  0.75625706 0.21982476
+ 0.60899764 0.224073   0.6756901  0.6856796  0.55714077 0.8134184
+ 0.09666717 0.7694534  0.9069166  0.87661374 0.88327014 0.7128093 ]
+predicted [1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 0 1 1 0 1 0 0 0 1 1 1 0 1 0 1 1 0 1
+ 0 1 1 1 1 0 1 1 1 1 1]
+expected [ True False False  True  True  True  True False  True False  True  True
+ False False  True  True  True  True False False False  True False False
+ False False  True  True  True  True  True  True False False  True  True
+  True  True  True  True False  True  True False  True  True False False]
+accuracy: 0.6458333333333334
+confusion matrix: 
+[[ 7 12]
+ [ 5 24]]
+              precision    recall  f1-score   support
+
+       False       0.58      0.37      0.45        19
+        True       0.67      0.83      0.74        29
+
+    accuracy                           0.65        48
+   macro avg       0.62      0.60      0.60        48
+weighted avg       0.63      0.65      0.62        48
+
+macro avg f1-score: 0.5950372208436725
+macro avg (UAR): 0.5980036297640653
+Sensitivity:  0.3684210526315789
+Specificity:  0.8275862068965517
+g-mean:  0.5521776720297582
+-------- Model Performance ----------: 
+accuracy:  [0.72916667 0.70833333 0.64583333 0.625      0.77083333 0.64583333
+ 0.625      0.66666667 0.625      0.64583333]
+gmean:  [0.7304624  0.63902148 0.44272707 0.56517187 0.72045559 0.64326752
+ 0.56517187 0.49498391 0.56517187 0.55217767]
+f1_score:  [0.7232816  0.671875   0.54028169 0.59013283 0.74603175 0.63813747
+ 0.59013283 0.57802198 0.59013283 0.59503722]
+UAR:  [0.73049002 0.66787659 0.5707804  0.58983666 0.73774955 0.64337568
+ 0.58983666 0.59709619 0.58983666 0.59800363]
+Cohen Kappa score:  [0.44876325 0.35508637 0.16049383 0.18644068 0.49809886 0.27915194
+ 0.18644068 0.21792261 0.18644068 0.20930233]
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  30
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  7.008
+step (sec):  5.248
+overlap:  True
+perc. of overlap:  25.114155251141554
+overlap duration (sec):  1.76
+Number of windows / instances:  237
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.732 0.872 0.869 0.87  0.865 0.466 0.73  0.763 0.716 0.73 ]
+ [0.597 0.788 0.801 0.783 0.788 0.534 0.768 0.793 0.751 0.767]
+ [0.616 0.828 0.835 0.816 0.825 0.427 0.763 0.797 0.731 0.764]
+ [0.612 0.797 0.823 0.783 0.803 0.376 0.671 0.751 0.583 0.671]
+ [0.529 0.754 0.781 0.738 0.754 0.385 0.674 0.755 0.568 0.663]
+ [0.273 0.631 0.669 0.592 0.626 0.062 0.525 0.671 0.216 0.465]
+ [0.    0.5   0.612 0.    0.38  0.    0.5   0.658 0.    0.397]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+30
+-------------------------------
+    
+    
+Traceback (most recent call last):
+  File "/home/marcos/Dropbox (Maestral)/c_sldl_1_2_24/main.py", line 129, in <module>
+    print_results_from_file(print_results=True, show_plot=True)
+  File "/home/marcos/Dropbox (Maestral)/c_sldl_1_2_24/functions.py", line 1377, in print_results_from_file
+    knn_perm = loadtxt(current_folder+'\\'+'knn_perm.csv', delimiter=',')
+  File "/usr/local/lib/python3.10/dist-packages/numpy/lib/npyio.py", line 1042, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.10/dist-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.10/dist-packages/numpy/lib/_datasource.py", line 532, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /home/marcos/Dropbox (Maestral)/c_sldl_1_2_24\knn_perm.csv not found.

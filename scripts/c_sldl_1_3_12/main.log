@@ -1,0 +1,104 @@
+2024-05-23 10:29:45.330824: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 10:29:45.387651: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 10:29:45.387889: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 10:29:45.388262: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-23 10:29:45.388963: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 10:29:45.389143: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 10:29:45.389301: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 10:29:45.795007: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 10:29:45.795220: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 10:29:45.795381: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-05-23 10:29:45.795531: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5965 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Ti, pci bus id: 0000:2b:00.0, compute capability: 8.6
+    
+    
+-------------------------------
+participant:  1
+-------------------------------
+    
+    
+participant:  1
+Window size (sec):  16.0
+step (sec):  8.0
+overlap:  True
+perc. of overlap:  50.0
+overlap duration (sec):  8.0
+Nearest multiple of 16 to 16000 is: 16000
+Nearest multiple of 16 to 8000 is: 8000
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+/home/marcos/Dropbox (Maestral)/c_sldl_1_3_12/functions.py:880: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 384, in _score
+    return self._sign * self._score_func(y, y_pred, **self._kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_ranking.py", line 569, in roc_auc_score
+    return _average_binary_score(
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_base.py", line 75, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_ranking.py", line 338, in _binary_roc_auc_score
+    raise ValueError(
+ValueError: Only one class present in y_true. ROC AUC score is not defined in that case.
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_split.py:680: UserWarning: The least populated class in y has only 8 members, which is less than n_splits=10.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_split.py:680: UserWarning: The least populated class in y has only 8 members, which is less than n_splits=10.
+  warnings.warn(
+-------------------------------------
+-------------------------------------
+participant:  30
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  16.0
+step (sec):  8.0
+overlap:  True
+perc. of overlap:  50.0
+overlap duration (sec):  8.0
+Number of windows / instances:  147
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.61  0.82  0.872 0.797 0.802   nan   nan   nan 0.2     nan]
+ [0.71  0.849 0.897 0.8   0.837   nan   nan   nan 0.4     nan]
+ [0.547 0.8   0.898 0.837 0.813   nan   nan   nan 0.3     nan]
+ [0.    0.5   0.796 0.    0.443   nan   nan   nan 0.2     nan]
+ [0.61  0.796 0.911 0.632 0.822   nan   nan   nan 0.2     nan]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.796 0.    0.443   nan   nan   nan 0.2     nan]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+30
+-------------------------------
+    
+    
+Traceback (most recent call last):
+  File "/home/marcos/Dropbox (Maestral)/c_sldl_1_3_12/main.py", line 129, in <module>
+    print_results_from_file(print_results=True, show_plot=True)
+  File "/home/marcos/Dropbox (Maestral)/c_sldl_1_3_12/functions.py", line 1362, in print_results_from_file
+    knn_perm = loadtxt(current_folder+'\\'+'knn_perm.csv', delimiter=',')
+  File "/usr/local/lib/python3.10/dist-packages/numpy/lib/npyio.py", line 1042, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.10/dist-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.10/dist-packages/numpy/lib/_datasource.py", line 532, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /home/marcos/Dropbox (Maestral)/c_sldl_1_3_12\knn_perm.csv not found.
