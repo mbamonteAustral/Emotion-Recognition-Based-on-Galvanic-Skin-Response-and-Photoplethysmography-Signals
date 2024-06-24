@@ -2,9 +2,9 @@
 
 Simulations to reproduce Article. 
 
-Marcos F. Bamonte
-Marcelo Risk
-Victor Herrero
+Marcos F. Bamonte,
+Marcelo Risk,
+Victor Herrero.
 
 
 ## Scripts (folder)
