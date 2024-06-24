@@ -1,6 +1,7 @@
 # Emotion Recognition Based on Galvanic Skin Response and Photoplethysmography Signals
 
 Simulations to reproduce Article. 
+
 Marcos F. Bamonte
 Marcelo Risk
 Victor Herrero
