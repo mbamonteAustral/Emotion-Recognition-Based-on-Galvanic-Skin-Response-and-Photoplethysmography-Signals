@@ -1,0 +1,384 @@
+2024-05-23 10:01:11.693678: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2024-05-23 10:01:11.700132: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-05-23 10:01:24.174318: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'nvcuda.dll'; dlerror: nvcuda.dll not found
+2024-05-23 10:01:24.176799: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-05-23 10:01:24.182479: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: MFB
+2024-05-23 10:01:24.183238: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: MFB
+2024-05-23 10:01:24.203544: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+---------------------------
+KNN performance:
+[[ 0.33333333  0.66666667  0.88392857  0.36454972  0.6418315          nan
+          nan         nan  0.7                nan]
+ [ 0.48904762  0.73452381  0.89464286  0.54142136  0.73631868         nan
+          nan         nan  0.7                nan]
+ [ 0.8         0.9         0.9625      0.8         0.88952381         nan
+          nan         nan  0.2                nan]
+ [ 0.08333333  0.53333333  0.80357143  0.14142136  0.50994505         nan
+          nan         nan  0.6                nan]
+ [ 0.62375859  0.85119048  0.89285714  0.75551094  0.80370796 -0.07114846
+   0.45952381  0.77321429  0.          0.43442224]
+ [        nan         nan         nan  0.8                nan         nan
+          nan         nan  0.5                nan]
+ [        nan         nan         nan  0.6                nan         nan
+          nan         nan  0.8                nan]
+ [ 0.85882353  0.94166667  0.97142857  0.89128709  0.92494172  0.56387894
+   0.815       0.85535714  0.75347669  0.77432789]
+ [        nan         nan         nan  0.9                nan         nan
+          nan         nan  0.3                nan]
+ [        nan         nan         nan  0.4                nan         nan
+          nan         nan  0.7                nan]
+ [        nan         nan         nan  0.3                nan         nan
+          nan         nan  0.9                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.42        0.73571429  0.90892857  0.48516402  0.69128205         nan
+          nan         nan  0.4                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.0147619          nan         nan  0.09258201         nan         nan
+          nan         nan  0.6                nan]
+ [ 0.2                nan         nan  0.2                nan         nan
+          nan         nan  0.7                nan]
+ [        nan         nan         nan  0.6                nan         nan
+          nan         nan  0.6                nan]
+ [        nan         nan         nan  0.2                nan  0.1454902
+   0.575       0.82678571  0.23270845  0.55010656]
+ [ 0.1547619   0.57738095  0.85535714  0.2         0.55968864  0.48571429
+   0.74285714  0.92142857  0.5         0.72849817]
+ [        nan         nan         nan  0.5                nan         nan
+          nan         nan  0.5                nan]
+ [ 0.36904762  0.68452381  0.89107143  0.4         0.66965201         nan
+          nan         nan  0.3                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]]
+KNN mean:
+[0.3951698  0.73611111 0.89603175 0.4827335  0.71409905 0.28098374
+ 0.64809524 0.84419643 0.52558869 0.62183872]
+---------------------------
+---------------------------
+DT performance:
+[[ 0.50980392  0.725       0.88392857  0.70424822  0.69827506         nan
+          nan         nan  0.6                nan]
+ [ 0.30862745  0.65119048  0.825       0.54841883  0.63867133         nan
+          nan         nan  0.48451543         nan]
+ [ 0.82        0.96071429  0.9625      0.8558747   0.93846154         nan
+          nan         nan  0.                 nan]
+ [ 0.13414997  0.56190476  0.725       0.51763583  0.5734965          nan
+          nan         nan  0.4                nan]
+ [ 0.60047619  0.78690476  0.88214286  0.6352604   0.77071096  0.10750916
+   0.57857143  0.775       0.31361487  0.55191142]
+ [        nan         nan         nan  0.6                nan         nan
+          nan         nan  0.4                nan]
+ [        nan         nan         nan  0.3                nan         nan
+          nan         nan  0.6                nan]
+ [ 0.53882353  0.8202381   0.90892857  0.56903312  0.7567366   0.72142857
+   0.82333333  0.88392857  0.76050372  0.81895271]
+ [        nan         nan         nan  0.7                nan         nan
+          nan         nan  0.29258201         nan]
+ [        nan         nan         nan  0.49258201         nan         nan
+          nan         nan  0.4                nan]
+ [        nan         nan         nan  0.38451543         nan         nan
+          nan         nan  0.7                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.54        0.82857143  0.925       0.59258201  0.81128205         nan
+          nan         nan  0.7                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [        nan         nan         nan  0.48516402         nan         nan
+          nan         nan  0.2                nan]
+ [ 0.25714286         nan         nan  0.49258201         nan         nan
+          nan         nan  0.5                nan]
+ [        nan         nan         nan  0.3                nan         nan
+          nan         nan  0.3                nan]
+ [        nan         nan         nan  0.5                nan  0.61882353
+   0.80952381  0.92142857  0.68451543  0.78512821]
+ [ 0.35233002  0.66190476  0.85714286  0.48257419  0.64235931  0.65692308
+   0.87857143  0.93571429  0.76903312  0.84798535]
+ [        nan         nan         nan  0.3                nan -0.04307692
+          nan         nan  0.1                nan]
+ [ 0.36779221  0.85357143  0.89464286  0.56681368  0.79843989         nan
+          nan         nan  0.3                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]]
+DT mean:
+[0.44291461 0.76111111 0.87380952 0.52775181 0.73649258 0.41232148
+ 0.7725     0.87901786 0.44761919 0.75099442]
+---------------------------
+---------------------------
+RF performance:
+[[0.44929972 0.77619048 0.85535714 0.55583682 0.70789211        nan
+         nan        nan 0.6               nan]
+ [0.18571429 0.51785714 0.78928571 0.52784241 0.48819514        nan
+         nan        nan 0.4               nan]
+ [0.92       0.95238095 0.94821429 0.88516402 0.91724942        nan
+         nan        nan 0.                nan]
+ [0.06313725 0.62619048 0.8        0.40597108 0.63023643        nan
+         nan        nan 0.5               nan]
+ [0.63596639 0.77619048 0.89642857 0.69128709 0.75889444 0.37666667
+  0.48928571 0.75357143 0.3        0.47426906]
+ [       nan        nan        nan 0.8               nan        nan
+         nan        nan 0.5               nan]
+ [       nan        nan        nan 0.3               nan        nan
+         nan        nan 0.7               nan]
+ [0.67882353 0.8702381  0.92321429 0.6838691  0.82728605 0.48619048
+  0.715      0.81607143 0.68670089 0.70521368]
+ [       nan        nan        nan 0.9               nan        nan
+         nan        nan 0.4               nan]
+ [       nan        nan        nan 0.5               nan        nan
+         nan        nan 0.7               nan]
+ [       nan        nan        nan 0.3               nan        nan
+         nan        nan 0.9               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.58       0.73571429 0.90892857 0.48516402 0.69128205        nan
+         nan        nan 0.5               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [       nan        nan        nan 0.58516402        nan        nan
+         nan        nan 0.3               nan]
+ [0.27142857        nan        nan 0.2               nan        nan
+         nan        nan 0.6               nan]
+ [       nan        nan        nan 0.6               nan        nan
+         nan        nan 0.5               nan]
+ [0.16904762        nan        nan 0.1               nan 0.40571429
+  0.67857143 0.86964286 0.65457978 0.65362637]
+ [0.40779221 0.72738095 0.89642857 0.6        0.70398934 0.34571429
+  0.77857143 0.91071429 0.3        0.7574359 ]
+ [       nan        nan        nan 0.3               nan        nan
+         nan        nan 0.3               nan]
+ [0.56904762 0.73452381 0.90535714 0.57423167 0.70677323        nan
+         nan        nan 0.39258201        nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]]
+RF mean:
+[0.4482052  0.7462963  0.88035714 0.52602791 0.71464424 0.40357143
+ 0.66535714 0.8375     0.48599277 0.64763625]
+---------------------------
+---------------------------
+SVM performance:
+[[0.         0.5        0.84285714 0.         0.45699634        nan
+         nan        nan 0.7               nan]
+ [0.         0.5        0.84285714 0.         0.45699634        nan
+         nan        nan 0.7               nan]
+ [0.         0.5        0.84285714 0.         0.45699634        nan
+         nan        nan 0.2               nan]
+ [0.         0.5        0.80535714 0.         0.44556777        nan
+         nan        nan 0.6               nan]
+ [0.         0.5        0.81785714 0.         0.44937729 0.
+  0.5        0.84285714 0.         0.45699634]
+ [       nan        nan        nan 0.8               nan        nan
+         nan        nan 0.5               nan]
+ [       nan        nan        nan 0.6               nan        nan
+         nan        nan 0.8               nan]
+ [0.         0.5        0.86785714 0.         0.46461538 0.
+  0.5        0.77857143 0.         0.43727106]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan 0.4               nan]
+ [       nan        nan        nan 0.4               nan        nan
+         nan        nan 0.7               nan]
+ [       nan        nan        nan 0.3               nan        nan
+         nan        nan        nan        nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.         0.5        0.86785714 0.         0.46461538        nan
+         nan        nan 0.3               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [       nan        nan        nan 0.1               nan        nan
+         nan        nan 0.6               nan]
+ [       nan        nan        nan 0.1               nan        nan
+         nan        nan 0.7               nan]
+ [       nan        nan        nan 0.6               nan        nan
+         nan        nan 0.6               nan]
+ [       nan        nan        nan 0.2               nan 0.
+  0.5        0.83035714 0.         0.45318681]
+ [0.         0.5        0.86785714 0.         0.46461538 0.
+  0.5        0.86785714 0.         0.46461538]
+ [       nan        nan        nan 0.5               nan        nan
+         nan        nan 0.5               nan]
+ [0.         0.5        0.85535714 0.         0.46080586        nan
+         nan        nan 0.4               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]]
+SVM mean:
+[0.         0.5        0.84563492 0.2        0.4578429  0.
+ 0.5        0.82991071 0.42777778 0.4530174 ]
+---------------------------
+---------------------------
+GBM performance:
+[[ 0.13333333  0.51666667  0.84285714  0.16454972  0.48080586         nan
+          nan         nan  0.8                nan]
+ [ 0.17666667  0.60952381  0.85535714  0.29258201  0.57580586         nan
+          nan         nan  0.8                nan]
+ [ 0.76        0.89285714  0.95        0.86329269  0.86901099         nan
+          nan         nan  0.1                nan]
+ [-0.03095238  0.49166667  0.79107143  0.          0.44108059         nan
+          nan         nan  0.6                nan]
+ [ 0.33666667  0.78333333  0.90892857  0.50597108  0.7794289   0.08571429
+   0.54285714  0.84464286  0.1         0.50703297]
+ [        nan         nan         nan  0.7                nan         nan
+          nan         nan  0.5                nan]
+ [        nan         nan         nan  0.4                nan         nan
+          nan         nan  0.8                nan]
+ [ 0.43882353  0.7702381   0.89464286  0.56903312  0.70289044  0.33333333
+   0.65666667  0.83928571  0.40466691  0.643663  ]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan  0.39258201         nan]
+ [        nan         nan         nan  0.39258201         nan         nan
+          nan         nan  0.7                nan]
+ [        nan         nan         nan  0.29258201         nan         nan
+          nan         nan         nan         nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.34571429  0.73571429  0.90892857  0.49258201  0.70798535         nan
+          nan         nan  0.7                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [        nan         nan         nan  0.49258201         nan         nan
+          nan         nan  0.6                nan]
+ [        nan         nan         nan  0.2                nan         nan
+          nan         nan  0.6                nan]
+ [        nan         nan         nan  0.5                nan         nan
+          nan         nan  0.5                nan]
+ [        nan         nan         nan  0.3                nan  0.12
+   0.56785714  0.84285714  0.16329269  0.52263736]
+ [ 0.4         0.7         0.92321429  0.4         0.67948718  0.76
+   0.89285714  0.96071429  0.79258201  0.87230769]
+ [        nan         nan         nan  0.5                nan         nan
+          nan         nan  0.3                nan]
+ [ 0.30779221  0.66904762  0.85535714  0.38164966  0.63254579         nan
+          nan         nan  0.3                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]]
+GBM mean:
+[0.31867159 0.68544974 0.88115079 0.4137448  0.65211566 0.3247619
+ 0.66505952 0.871875   0.50850687 0.63641026]
+---------------------------
+---------------------------
+BDDAE performance:
+[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+BDDAE mean:
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------
+---------------------------
+DUMMY performance:
+[[0.         0.5        0.84285714 0.         0.45699634        nan
+         nan        nan 0.7               nan]
+ [0.         0.5        0.84285714 0.         0.45699634        nan
+         nan        nan 0.7               nan]
+ [0.         0.5        0.84285714 0.         0.45699634        nan
+         nan        nan 0.2               nan]
+ [0.         0.5        0.80535714 0.         0.44556777        nan
+         nan        nan 0.6               nan]
+ [0.         0.5        0.81785714 0.         0.44937729 0.
+  0.5        0.84285714 0.         0.45699634]
+ [       nan        nan        nan 0.8               nan        nan
+         nan        nan 0.5               nan]
+ [       nan        nan        nan 0.6               nan        nan
+         nan        nan 0.8               nan]
+ [0.         0.5        0.86785714 0.         0.46461538 0.
+  0.5        0.77857143 0.         0.43727106]
+ [       nan        nan        nan 0.9               nan        nan
+         nan        nan 0.4               nan]
+ [       nan        nan        nan 0.4               nan        nan
+         nan        nan 0.7               nan]
+ [       nan        nan        nan 0.3               nan        nan
+         nan        nan 0.9               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.         0.5        0.86785714 0.         0.46461538        nan
+         nan        nan 0.3               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [       nan        nan        nan 0.1               nan        nan
+         nan        nan 0.6               nan]
+ [       nan        nan        nan 0.1               nan        nan
+         nan        nan 0.7               nan]
+ [       nan        nan        nan 0.6               nan        nan
+         nan        nan 0.6               nan]
+ [       nan        nan        nan 0.2               nan 0.
+  0.5        0.83035714 0.         0.45318681]
+ [0.         0.5        0.86785714 0.         0.46461538 0.
+  0.5        0.86785714 0.         0.46461538]
+ [       nan        nan        nan 0.5               nan        nan
+         nan        nan 0.5               nan]
+ [0.         0.5        0.85535714 0.         0.46080586        nan
+         nan        nan 0.4               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]]
+DUMMY mean:
+[0.         0.5        0.84563492 0.23684211 0.4578429  0.
+ 0.5        0.82991071 0.45263158 0.4530174 ]
+---------------------------
+Current folder: C:\Users\mbamo\Dropbox\c_sldl_1_3_7
+-------------------------------------
+----- RESULTS from .csv files ------
+-------------------------------------
+---------------------------
+ALG Means: 
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.546 0.79  0.907 0.616 0.763 0.326 0.672 0.85  0.418 0.646]
+ [0.497 0.756 0.883 0.562 0.723 0.495 0.76  0.865 0.614 0.74 ]
+ [0.574 0.791 0.905 0.658 0.763 0.403 0.661 0.827 0.429 0.646]
+ [0.    0.5   0.851 0.    0.46  0.    0.5   0.83  0.    0.453]
+ [0.392 0.751 0.909 0.492 0.721 0.393 0.697 0.882 0.432 0.674]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.851 0.    0.46  0.    0.5   0.83  0.    0.453]]
+-------------------------------------------------------------
+Standard Deviation of each metric:
+[[0.293 0.155 0.048 0.299 0.152 0.283 0.153 0.061 0.313 0.151]
+ [0.105 0.068 0.021 0.063 0.057 0.275 0.13  0.067 0.213 0.133]
+ [0.119 0.059 0.013 0.041 0.05  0.06  0.124 0.065 0.182 0.123]
+ [0.    0.    0.024 0.    0.007 0.    0.    0.038 0.    0.012]
+ [0.042 0.037 0.012 0.07  0.043 0.278 0.146 0.056 0.283 0.151]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.    0.024 0.    0.007 0.    0.    0.038 0.    0.012]]
+-------------------------------------------------------------
+std_dev/mean [percentage]:
+[[54. 20.  5. 49. 20. 87. 23.  7. 75. 23.]
+ [21.  9.  2. 11.  8. 56. 17.  8. 35. 18.]
+ [21.  7.  1.  6.  7. 15. 19.  8. 42. 19.]
+ [ 0.  0.  3.  0.  2.  0.  0.  5.  0.  3.]
+ [11.  5.  1. 14.  6. 71. 21.  6. 65. 22.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  3.  0.  2.  0.  0.  5.  0.  3.]]

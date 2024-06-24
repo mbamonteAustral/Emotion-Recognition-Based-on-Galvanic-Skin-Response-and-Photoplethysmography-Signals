@@ -1,0 +1,615 @@
+2024-03-21 15:53:45.568289: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-21 15:53:45.829579: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-21 15:53:45.829804: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-21 15:53:45.831264: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-21 15:53:45.833017: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-21 15:53:45.833393: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-21 15:53:45.833719: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-21 15:53:46.822234: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-21 15:53:46.822488: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-21 15:53:46.822733: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-21 15:53:46.822932: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5955 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Ti, pci bus id: 0000:2b:00.0, compute capability: 8.6
+    
+    
+-------------------------------
+participant:  1
+-------------------------------
+    
+    
+participant:  1
+Window size (sec):  11.0
+step (sec):  5.5
+overlap:  True
+perc. of overlap:  50.0
+overlap duration (sec):  5.5
+Nearest multiple of 16 to 11000 is: 11008
+Nearest multiple of 16 to 5500 is: 5504
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+/home/marcos/Dropbox (Maestral)/c_sldl_1_3_3/functions.py:880: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (22, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (22, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (22, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (22, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py:776: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 74, in _cached_call
+    return cache[method]
+KeyError: 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 358, in _score
+    y_pred = method_caller(clf, "decision_function", X)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/utils/metaestimators.py", line 127, in __get__
+    if not self.check(obj):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 46, in check
+    getattr(self._final_estimator, attr)
+AttributeError: 'RandomForestClassifier' object has no attribute 'decision_function'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 767, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 106, in __call__
+    score = scorer._score(cached_call, estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 375, in _score
+    y_pred = self._select_proba_binary(y_pred, clf.classes_)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_scorer.py", line 183, in _select_proba_binary
+    raise ValueError(err_msg)
+ValueError: Got predict_proba of shape (21, 1), but need classifier with two classes for roc_auc_score scoring
+
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:663: RuntimeWarning: invalid value encountered in true_divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+------------- Evaluating model --------------
+-----------Exception computing performance ----------------
+
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/model_selection/_validation.py", line 686, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/pipeline.py", line 382, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/svm/_base.py", line 182, in fit
+    y = self._validate_targets(y)
+  File "/usr/local/lib/python3.10/dist-packages/sklearn/svm/_base.py", line 739, in _validate_targets
+    raise ValueError(
+ValueError: The number of classes has to be greater than one; got 1 class
+
+-------------------------------------
+    
+    
+-------------------------------
+LAST participant's saved data: 
+30
+-------------------------------
+    
+    
+Saving performance metrics in csv files...
+Performance metrics already saved in csv files
+---------------------------
+KNN performance:
+[[ 0.71838538  0.82777778  0.93593074  0.79637492  0.85701732  0.45975422
+          nan         nan  0.49759001         nan]
+ [ 0.45716466  0.69722222  0.88160173  0.5582295   0.7189486          nan
+          nan         nan  0.1                nan]
+ [ 0.88885076  0.92083333  0.97272727  0.91216796  0.94393708  0.13489813
+   0.56236842  0.8995671   0.20845564  0.55648282]
+ [ 0.38791607  0.67635621  0.83506494  0.54140876  0.68510979  0.
+          nan         nan  0.                 nan]
+ [ 0.64361263  0.82916667  0.89502165  0.80961959  0.81977817  0.2227917
+   0.60380117  0.82186147  0.44764658  0.60504043]
+ [        nan         nan         nan  0.5                nan  0.05475422
+   0.52011905  0.91774892  0.07071068  0.51178436]
+ [        nan         nan         nan  0.4                nan         nan
+          nan         nan  0.6                nan]
+ [ 0.92364937  0.97668129  0.97727273  0.97554915  0.9615762   0.66281598
+   0.8503268   0.87705628  0.83884645  0.82894541]
+ [        nan         nan         nan  0.7                nan  0.55316288
+   0.83        0.93614719  0.72177141  0.7707426 ]
+ [ 0.46120145  0.7577381   0.93160173  0.63973346  0.72639484  0.16451613
+   0.59761905  0.95887446  0.19759001  0.57275477]
+ [ 0.42586946  0.6979386   0.91753247  0.52314224  0.70252881         nan
+          nan         nan  0.7                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.72822529  0.84473684  0.95        0.77991685  0.85951268  0.37415662
+   0.65653509  0.91796537  0.47687835  0.68112615]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.57404207  0.79355263  0.8995671   0.77417521  0.78597824         nan
+          nan         nan  0.1                nan]
+ [ 0.47154579  0.71403509  0.91796537  0.502684    0.72260894         nan
+          nan         nan  0.1                nan]
+ [ 0.1         0.55        0.954329    0.1         0.53826    -0.00952381
+   0.4952381   0.93160173  0.          0.48222456]
+ [ 0.09951613  0.5425      0.90887446  0.13963092  0.53410859  0.43151942
+   0.70336257  0.85367965  0.65578788  0.71436954]
+ [ 0.3942334   0.67002924  0.88614719  0.52314449  0.68887563  0.49406268
+   0.73991228  0.904329    0.6209724   0.73896706]
+ [ 0.23354839  0.595       0.92229437  0.28105228  0.6044367   0.31564516
+   0.66011905  0.92272727  0.40793161  0.65419881]
+ [ 0.64382358  0.8002924   0.93138528  0.72584982  0.81660333  0.43695667
+   0.71011905  0.93138528  0.50661338  0.71471071]]
+KNN mean:
+[0.50947403 0.74336627 0.91983225 0.58856206 0.74785468 0.30682214
+ 0.66079338 0.90607864 0.38162076 0.65261227]
+---------------------------
+---------------------------
+DT performance:
+[[0.63719949 0.84181287 0.9034632  0.80608093 0.83351468        nan
+         nan        nan 0.49759001        nan]
+ [0.70918982 0.85847953 0.91796537 0.83124906 0.85409191        nan
+         nan        nan 0.59511897        nan]
+ [0.79366368 0.89444444 0.93614719 0.8932991  0.89252867 0.31732719
+  0.66460526 0.88073593 0.40597134 0.65168262]
+ [0.37667658 0.71423203 0.79415584 0.60778011 0.68217497 0.07926267
+         nan        nan 0.29511897        nan]
+ [0.67557998 0.86666667 0.90887446 0.8685562  0.8504188  0.46417667
+  0.78618421 0.8491342  0.69136496 0.75453409]
+ [       nan        nan        nan 0.2               nan 0.15791663
+  0.5877381  0.87207792 0.36586635 0.57651318]
+ [0.08095238        nan        nan 0.09759001        nan        nan
+         nan        nan 0.2               nan]
+ [0.91285774 0.94875731 0.97727273 0.94441724 0.95346335 0.7106516
+  0.85707516 0.91341991 0.84824456 0.8604863 ]
+ [       nan        nan        nan 0.4               nan 0.54998923
+  0.78761905 0.94978355 0.64550268 0.78633074]
+ [0.23878209 0.6377381  0.92251082 0.33087061 0.63759292 0.09319246
+  0.58333333 0.93160173 0.28509251 0.54865894]
+ [0.41000684 0.74614035 0.90865801 0.65925559 0.7395221         nan
+         nan        nan 0.3               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.49514588 0.76966374 0.88614719 0.63744109 0.74288603 0.58621386
+  0.80486842 0.93181818 0.71071102 0.80227346]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.51603297 0.77324561 0.91320346 0.65483373 0.76309335 0.33681765
+         nan        nan 0.19759001        nan]
+ [0.3096082  0.69122807 0.854329   0.59646709 0.67123951 0.15975422
+         nan        nan 0.29759001        nan]
+ [0.39243715 0.59833333 0.91277056 0.36651025 0.57629447 0.08254516
+  0.55297619 0.90865801 0.26576863 0.52544998]
+ [0.37719882 0.685      0.92229437 0.47419773 0.68901523 0.75717277
+  0.86681287 0.93571429 0.8474882  0.87405398]
+ [0.30625957 0.67207602 0.82683983 0.50772373 0.64682639 0.47306616
+  0.74649123 0.87683983 0.70396438 0.72932315]
+ [0.13683558 0.57       0.87683983 0.36503469 0.54790981 0.15445304
+  0.61547619 0.88181818 0.26651025 0.60901158]
+ [0.64154351 0.85211988 0.93160173 0.79566748 0.85315103 0.42784304
+  0.70761905 0.93160173 0.50303251 0.68977996]]
+DT mean:
+[0.47117472 0.75749612 0.8995671  0.5808934  0.7458577  0.35669216
+ 0.71339992 0.90526696 0.4696066  0.70067483]
+---------------------------
+---------------------------
+RF performance:
+[[ 0.74404223  0.84305556  0.94480519  0.87359884  0.872057    0.5
+          nan         nan  0.49759001         nan]
+ [ 0.53824869  0.76461988  0.87229437  0.78324447  0.76698506         nan
+          nan         nan  0.3                nan]
+ [ 0.8598532   0.90833333  0.95909091  0.90399038  0.92401676  0.26268299
+   0.60736842  0.8995671   0.27926184  0.59630414]
+ [ 0.32329402  0.74415033  0.84891775  0.69822641  0.74140008  0.3
+          nan         nan  0.1                nan]
+ [ 0.72940424  0.82638889  0.89025974  0.80205541  0.80465233  0.39056948
+   0.65811404  0.84935065  0.62629026  0.66672611]
+ [        nan         nan         nan  0.5                nan  0.07209677
+   0.54        0.91320346  0.20855117  0.53532831]
+ [        nan         nan         nan  0.39759001         nan         nan
+          nan         nan  0.6                nan]
+ [ 0.9067263   0.96016082  0.97272727  0.90110182  0.948235    0.72332187
+   0.88001634  0.92705628  0.8584908   0.8873951 ]
+ [        nan         nan         nan  0.7                nan  0.40464779
+   0.5675      0.91774892  0.64813432  0.56161015]
+ [ 0.32343824  0.63285714  0.91363636  0.59766827  0.6252133   0.09047619
+   0.64285714  0.954329    0.3         0.60481322]
+ [ 0.51346885  0.77947368  0.91731602  0.63244377  0.77488062         nan
+          nan         nan  0.7                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.59259293  0.82280702  0.93636364  0.73056791  0.82845437  0.69379632
+   0.83710526  0.9495671   0.77406264  0.85169977]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.51877588  0.77368421  0.8995671   0.72908493  0.7547582  -0.00952381
+          nan         nan  0.09759001         nan]
+ [ 0.5112957   0.72616959  0.89047619  0.68590219  0.73136077 -0.0047619
+          nan         nan  0.1                nan]
+ [ 0.05975422  0.4975      0.94502165  0.19759001  0.48581672  0.15951613
+   0.5677381   0.93593074  0.16892024  0.56660164]
+ [ 0.28368005  0.6075      0.904329    0.23963092  0.59419682  0.70332686
+   0.8251462   0.92207792  0.85902234  0.84412642]
+ [ 0.40864451  0.67339181  0.86796537  0.51791338  0.667418    0.69472451
+   0.81491228  0.92251082  0.71466645  0.80666816]
+ [ 0.13171858  0.54        0.9038961   0.27926184  0.52455106  0.18709677
+   0.5402381   0.91363636  0.17071068  0.52723442]
+ [ 0.80123831  0.91001462  0.95887446  0.83678912  0.91431163  0.2516129
+   0.6075      0.91341991  0.4103416   0.60150516]]
+RF mean:
+[0.515386   0.75063168 0.91409632 0.63192946 0.74739423 0.33872393
+ 0.67404132 0.91819986 0.44282276 0.67083438]
+---------------------------
+---------------------------
+SVM performance:
+[[ 0.          0.5         0.82662338  0.          0.45249531         nan
+          nan         nan  0.2                nan]
+ [ 0.          0.5         0.83116883  0.          0.45383677         nan
+          nan         nan  0.2                nan]
+ [ 0.69467764  0.79583333  0.93138528  0.76119027  0.84481888  0.
+   0.5         0.90865801  0.          0.47607143]
+ [ 0.          0.5         0.79458874  0.          0.44268556         nan
+          nan         nan  0.1                nan]
+ [ 0.37504145  0.65277778  0.86796537  0.48556189  0.67069071  0.
+   0.5         0.84025974  0.          0.4565197 ]
+ [        nan         nan         nan  0.5                nan  0.
+   0.5         0.92251082  0.          0.47978824]
+ [        nan         nan         nan  0.2                nan         nan
+          nan         nan  0.6                nan]
+ [ 0.49701542  0.70833333  0.91298701  0.56216796  0.73707465  0.
+   0.5         0.78095238  0.          0.43845479]
+ [        nan         nan         nan  0.7                nan  0.
+   0.5         0.91796537  0.          0.47857008]
+ [ 0.          0.5         0.92251082  0.          0.47978824  0.
+   0.5         0.954329    0.          0.48831537]
+ [ 0.          0.5         0.89047619  0.          0.47096109         nan
+          nan         nan  0.7                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [-0.00731707  0.49736842  0.8538961   0.          0.46054409  0.
+   0.5         0.90411255  0.          0.47479384]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.          0.5         0.87229437  0.          0.46585075         nan
+          nan         nan  0.1                nan]
+ [ 0.          0.5         0.86298701  0.          0.46322702         nan
+          nan         nan  0.1                nan]
+ [ 0.          0.5         0.94978355  0.          0.48709721  0.
+   0.5         0.94069264  0.          0.48466089]
+ [ 0.          0.5         0.91341991  0.          0.47735192  0.
+   0.5         0.84025974  0.          0.4565197 ]
+ [ 0.          0.5         0.8538961   0.          0.46054409  0.
+   0.5         0.86774892  0.          0.46457317]
+ [ 0.          0.5         0.91341991  0.          0.47735192  0.
+   0.5         0.92705628  0.          0.4810064 ]
+ [ 0.          0.5         0.8538961   0.          0.46054409  0.
+   0.5         0.92251082  0.          0.47978824]]
+SVM mean:
+[0.09746359 0.54089455 0.87820617 0.16889053 0.51905389 0.
+ 0.5        0.89392136 0.10526316 0.47158849]
+---------------------------
+---------------------------
+GBM performance:
+[[ 0.6455506   0.76527778  0.91298701  0.74065626  0.81028771         nan
+          nan         nan  0.49759001         nan]
+ [ 0.28722148  0.60555556  0.86320346  0.33618073  0.61851083         nan
+          nan         nan  0.5                nan]
+ [ 0.86182834  0.91111111  0.96363636  0.90399038  0.93051789  0.
+   0.5         0.90865801  0.          0.47607143]
+ [ 0.19453009  0.57823529  0.81277056  0.28411884  0.56210332 -0.0047619
+          nan         nan  0.                 nan]
+ [ 0.31992833  0.63333333  0.86796537  0.35967355  0.6327118   0.
+   0.5         0.84025974  0.          0.4565197 ]
+ [        nan         nan         nan  0.5                nan  0.03854839
+   0.52        0.91796537  0.06892024  0.50339161]
+ [        nan         nan         nan  0.1                nan         nan
+          nan         nan  0.6                nan]
+ [ 0.87312325  0.93223684  0.97272727  0.92065293  0.93573532  0.49333977
+   0.70911765  0.86341991  0.60346709  0.73288968]
+ [        nan         nan         nan  0.6                nan  0.
+   0.5         0.91796537  0.          0.47857008]
+ [ 0.          0.5         0.92251082  0.          0.47978824 -0.0047619
+   0.49761905  0.94978355  0.          0.48709721]
+ [ 0.33694969  0.63070175  0.91341991  0.44997684  0.65496761         nan
+          nan         nan  0.3                nan]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.29647797  0.62960526  0.88571429  0.37930544  0.61504287  0.31601968
+   0.6475      0.92705628  0.42426407  0.68054141]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.03902439  0.51403509  0.87229437  0.05773503  0.49066783  0.06451613
+          nan         nan  0.09511897         nan]
+ [ 0.3014435   0.63333333  0.89935065  0.29711971  0.62779706  0.
+          nan         nan  0.                 nan]
+ [ 0.08071429  0.5452381   0.9452381   0.1         0.53582368  0.
+   0.4975      0.93593074  0.          0.4833804 ]
+ [ 0.44516129  0.6975      0.9452381   0.41213203  0.71881533  0.37737742
+   0.66111111  0.89004329  0.44063214  0.67459451]
+ [ 0.03902439  0.51403509  0.8538961   0.11547005  0.48536116  0.49225884
+   0.71710526  0.91341991  0.61120471  0.73676412]
+ [-0.005       0.4975      0.90865801  0.          0.47607143  0.
+   0.5         0.92705628  0.          0.4810064 ]
+ [ 0.3186751   0.64751462  0.88593074  0.3628352   0.63784079  0.
+   0.5         0.92251082  0.          0.47978824]]
+GBM mean:
+[0.31466579 0.63970082 0.90159632 0.36420247 0.63825268 0.11816909
+ 0.56249609 0.90950577 0.21795775 0.55588457]
+---------------------------
+---------------------------
+BDDAE performance:
+[[ 0.32753221  0.63055556  0.84090909  0.52137159  0.65465661  0.10216346
+   0.54761905  0.95454545  0.13971723  0.54163554]
+ [ 0.65086114  0.83899614  0.90454545  0.82001482  0.82342225  0.
+   0.5         0.95454545  0.          0.48837209]
+ [ 0.32435058  0.63513514  0.86363636  0.49264209  0.65179676  0.02525867
+   0.51        0.90681818  0.04937104  0.49216798]
+ [ 0.31509842  0.63412698  0.825       0.48184628  0.64307327  0.
+   0.5         0.95454545  0.          0.48837209]
+ [ 0.29965738  0.64583333  0.83409091  0.48574794  0.63698014 -0.02314702
+   0.49131274  0.80681818  0.07187859  0.46425365]
+ [-0.00232558  0.49883721  0.975       0.          0.4936648   0.
+   0.5         0.93181818  0.          0.48235294]
+ [-0.00625     0.49761905  0.95        0.          0.48716826  0.
+   0.5         0.97727273  0.          0.49425287]
+ [ 0.66147624  0.79903475  0.925       0.7609171   0.82764209  0.10599874
+   0.54588235  0.74545455  0.33439028  0.53687106]
+ [-0.01010174  0.49418605  0.96590909  0.          0.49129865 -0.01132075
+   0.49625     0.90227273  0.          0.47429719]
+ [-0.01282805  0.49512195  0.92272727  0.          0.47987311  0.065625
+   0.525       0.95681818  0.07071068  0.52227998]
+ [ 0.72765904  0.85846154  0.95        0.83531653  0.86293267  0.
+   0.5         0.97727273  0.          0.49425287]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.46524603  0.68947368  0.9         0.61546216  0.72763839  0.13469264
+   0.54625     0.91136364  0.19937104  0.55325805]
+ [        nan         nan         nan         nan         nan         nan
+          nan         nan         nan         nan]
+ [ 0.30828221  0.63947368  0.85        0.55922936  0.65184306 -0.00625
+   0.49761905  0.95        0.          0.48716826]
+ [ 0.40602874  0.65307018  0.89772727  0.54932976  0.69517989 -0.0078869
+   0.49642857  0.94772727  0.          0.48655202]
+ [-0.003125    0.49880952  0.95227273  0.          0.48777018  0.
+   0.5         0.93181818  0.          0.48235294]
+ [ 0.08256039  0.54375     0.90681818  0.13215838  0.52254003  0.14161238
+   0.55656371  0.83863636  0.27951562  0.55075346]
+ [ 0.17487703  0.56447368  0.86590909  0.29038509  0.56838095  0.
+   0.5         0.86363636  0.          0.46341463]
+ [ 0.22621676  0.6075      0.9         0.36799061  0.60391283  0.21707519
+   0.5902439   0.92727273  0.30974713  0.60250208]
+ [ 0.6866123   0.86973684  0.92045455  0.86184826  0.84270383 -0.00705882
+   0.49756098  0.92727273  0.          0.48112045]]
+BDDAE mean:
+[0.29588569 0.63653659 0.90263158 0.40917158 0.63960409 0.03877698
+ 0.51582791 0.91399522 0.07656324 0.50453843]
+---------------------------
+---------------------------
+DUMMY performance:
+[[0.         0.5        0.82662338 0.         0.45249531        nan
+         nan        nan 0.2               nan]
+ [0.         0.5        0.83116883 0.         0.45383677        nan
+         nan        nan 0.2               nan]
+ [0.         0.5        0.83116883 0.         0.45383677 0.
+  0.5        0.90865801 0.         0.47607143]
+ [0.         0.5        0.79458874 0.         0.44268556        nan
+         nan        nan 0.1               nan]
+ [0.         0.5        0.82207792 0.         0.45115385 0.
+  0.5        0.84025974 0.         0.4565197 ]
+ [       nan        nan        nan 0.5               nan 0.
+  0.5        0.92251082 0.         0.47978824]
+ [       nan        nan        nan 0.2               nan        nan
+         nan        nan 0.6               nan]
+ [0.         0.5        0.84935065 0.         0.45920263 0.
+  0.5        0.78095238 0.         0.43845479]
+ [       nan        nan        nan 0.7               nan 0.
+  0.5        0.91796537 0.         0.47857008]
+ [0.         0.5        0.92251082 0.         0.47978824 0.
+  0.5        0.954329   0.         0.48831537]
+ [0.         0.5        0.89047619 0.         0.47096109        nan
+         nan        nan 0.7               nan]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.         0.5        0.85844156 0.         0.46188555 0.
+  0.5        0.90411255 0.         0.47479384]
+ [       nan        nan        nan        nan        nan        nan
+         nan        nan        nan        nan]
+ [0.         0.5        0.87229437 0.         0.46585075        nan
+         nan        nan 0.1               nan]
+ [0.         0.5        0.86298701 0.         0.46322702        nan
+         nan        nan 0.1               nan]
+ [0.         0.5        0.94978355 0.         0.48709721 0.
+  0.5        0.94069264 0.         0.48466089]
+ [0.         0.5        0.91341991 0.         0.47735192 0.
+  0.5        0.84025974 0.         0.4565197 ]
+ [0.         0.5        0.8538961  0.         0.46054409 0.
+  0.5        0.86774892 0.         0.46457317]
+ [0.         0.5        0.91341991 0.         0.47735192 0.
+  0.5        0.92705628 0.         0.4810064 ]
+ [0.         0.5        0.8538961  0.         0.46054409 0.
+  0.5        0.92251082 0.         0.47978824]]
+DUMMY mean:
+[0.         0.5        0.86538149 0.07368421 0.4636133  0.
+ 0.5        0.89392136 0.10526316 0.47158849]
+---------------------------
+Current folder: /home/marcos/Dropbox (Maestral)/c_sldl_1_3_3
+-------------------------------------
+----- RESULTS from .csv files ------
+-------------------------------------
+---------------------------
+ALG Means: 
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.512 0.749 0.933 0.589 0.749 0.323 0.658 0.902 0.436 0.655]
+ [0.497 0.749 0.91  0.618 0.739 0.407 0.719 0.904 0.553 0.705]
+ [0.51  0.738 0.925 0.601 0.732 0.416 0.698 0.919 0.516 0.695]
+ [0.156 0.565 0.897 0.181 0.556 0.    0.5   0.889 0.    0.47 ]
+ [0.323 0.651 0.915 0.355 0.645 0.167 0.573 0.908 0.208 0.569]
+ [0.296 0.637 0.903 0.409 0.64  0.039 0.516 0.914 0.077 0.505]
+ [0.    0.5   0.877 0.    0.467 0.    0.5   0.889 0.    0.47 ]]
+-------------------------------------------------------------
+Standard Deviation of each metric:
+[[0.288 0.146 0.029 0.3   0.149 0.188 0.095 0.039 0.235 0.097]
+ [0.239 0.128 0.038 0.228 0.134 0.23  0.106 0.029 0.224 0.116]
+ [0.294 0.159 0.033 0.264 0.164 0.246 0.121 0.028 0.266 0.13 ]
+ [0.25  0.106 0.034 0.284 0.134 0.    0.    0.052 0.    0.015]
+ [0.31  0.15  0.039 0.316 0.163 0.212 0.092 0.032 0.261 0.114]
+ [0.248 0.123 0.045 0.301 0.127 0.067 0.027 0.059 0.114 0.036]
+ [0.    0.    0.042 0.    0.012 0.    0.    0.052 0.    0.015]]
+-------------------------------------------------------------
+std_dev/mean [percentage]:
+[[ 56.  20.   3.  51.  20.  58.  14.   4.  54.  15.]
+ [ 48.  17.   4.  37.  18.  57.  15.   3.  41.  16.]
+ [ 58.  22.   4.  44.  22.  59.  17.   3.  52.  19.]
+ [160.  19.   4. 157.  24.   0.   0.   6.   0.   3.]
+ [ 96.  23.   4.  89.  25. 127.  16.   4. 126.  20.]
+ [ 84.  19.   5.  74.  20. 173.   5.   6. 149.   7.]
+ [  0.   0.   5.   0.   3.   0.   0.   6.   0.   3.]]
+-------------------------------------
+Current folder: /home/marcos/Dropbox (Maestral)/c_sldl_1_3_3
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  11.008
+step (sec):  5.504
+overlap:  True
+perc. of overlap:  50.0
+overlap duration (sec):  5.504
+Number of windows / instances:  219
+Elapsed time: 610.5256374835968 minutes
+Elapsed time: 10.17542729139328 hours

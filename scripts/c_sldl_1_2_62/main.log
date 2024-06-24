@@ -1,0 +1,18 @@
+    
+    
+-------------------------------
+participant:  1
+-------------------------------
+    
+    
+participant:  1
+corriendo en PC gamer:
+Window size (sec):  32.0
+step (sec):  16.0
+overlap:  True
+perc. of overlap:  50.0
+overlap duration (sec):  16.0
+Nearest multiple of 16 to 32000 is: 32000
+Nearest multiple of 16 to 16000 is: 16000
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
