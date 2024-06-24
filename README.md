@@ -1,7 +1,8 @@
 # Emotion Recognition Based on Galvanic Skin Response and Photoplethysmography Signals
 
-Simulations to reproduce Article. 
+This repository contains the simulations necessary to reproduce our article using the CASE dataset.
 
+Article authors:
 Marcos F. Bamonte,
 Marcelo Risk,
 Victor Herrero.
