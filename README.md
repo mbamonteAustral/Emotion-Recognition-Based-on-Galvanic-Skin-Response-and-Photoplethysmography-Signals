@@ -6,6 +6,9 @@ Marcos F. Bamonte,
 Marcelo Risk,
 Victor Herrero.
 
+##  CASE Dataset
+CASE Dataset is made publicly available at https://gitlab.com/karan-shr/case_dataset.
+
 
 ## Scripts (folder)
 
