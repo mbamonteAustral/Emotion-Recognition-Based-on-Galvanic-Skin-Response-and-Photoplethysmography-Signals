@@ -1,0 +1,56 @@
+Traceback (most recent call last):
+  File "C:\Users\Javier\Dropbox\c_sldl_1_2_16\show_csv_results.py", line 5, in <module>
+    from processdataf import process_data
+  File "C:\Users\Javier\Dropbox\c_sldl_1_2_16\processdataf.py", line 1, in <module>
+    import numpy as np
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\__init__.py", line 163, in <module>
+    from . import lib
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\lib\__init__.py", line 23, in <module>
+    from . import index_tricks
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\lib\index_tricks.py", line 12, in <module>
+    import numpy.matrixlib as matrixlib
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\matrixlib\__init__.py", line 4, in <module>
+    from . import defmatrix
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\matrixlib\defmatrix.py", line 12, in <module>
+    from numpy.linalg import matrix_power
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\linalg\__init__.py", line 73, in <module>
+    from . import linalg
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\linalg\linalg.py", line 37, in <module>
+    from numpy._typing import NDArray
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\_typing\__init__.py", line 182, in <module>
+    from ._array_like import (
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\_typing\_array_like.py", line 142, in <module>
+    _ArrayLikeStr_co = _DualArrayLike[
+                       ^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\Lib\typing.py", line 381, in inner
+    return _caches[func](*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\Lib\typing.py", line 1276, in __getitem__
+    new_args = self._determine_new_args(args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\Lib\typing.py", line 1307, in _determine_new_args
+    return tuple(self._make_substitution(self.__args__, new_arg_by_param))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\Lib\typing.py", line 1331, in _make_substitution
+    new_arg = old_arg[tuple(subargs)]
+              ~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\Lib\typing.py", line 381, in inner
+    return _caches[func](*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\Lib\typing.py", line 1276, in __getitem__
+    new_args = self._determine_new_args(args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\Lib\typing.py", line 1307, in _determine_new_args
+    return tuple(self._make_substitution(self.__args__, new_arg_by_param))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\Lib\typing.py", line 1345, in _make_substitution
+    elif _is_unpacked_typevartuple(old_arg):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\Lib\typing.py", line 946, in _is_unpacked_typevartuple
+    getattr(x, '__typing_is_unpacked_typevartuple__', False))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\Lib\typing.py", line 1159, in __getattr__
+    def __getattr__(self, attr):
+
+KeyboardInterrupt
+^C
