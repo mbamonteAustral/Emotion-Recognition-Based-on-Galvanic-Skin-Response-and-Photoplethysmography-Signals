@@ -1,0 +1,203 @@
+2024-03-01 15:35:21.404372: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-01 15:35:21.458345: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-01 15:35:21.458631: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-01 15:35:21.459060: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-01 15:35:21.459810: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-01 15:35:21.460028: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-01 15:35:21.460215: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-01 15:35:21.879044: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-01 15:35:21.879246: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-01 15:35:21.879406: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:975] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-03-01 15:35:21.879541: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 6040 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Ti, pci bus id: 0000:2b:00.0, compute capability: 8.6
+    
+    
+-------------------------------
+participant:  1
+-------------------------------
+    
+    
+participant:  1
+Window size (sec):  4.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  25.0
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+/home/marcos/Dropbox (Maestral)/c_sldl_1_2/functions.py:880: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+
+1/3 [=========>....................] - ETA: 0s3/3 [==============================] - 0s 3ms/step
+predicted [0.15572141 0.15421185 0.6352582  0.5889966  0.43696502 0.32482186
+ 0.1846882  0.16289029 0.14084648 0.47506264 0.43101215 0.23485117
+ 0.7825651  0.6105086  0.45360506 0.41267186 0.15953621 0.7156095
+ 0.15829383 0.56979245 0.58633083 0.7447309  0.71870005 0.13038045
+ 0.76514524 0.6032564  0.25507566 0.0957182  0.76621246 0.3990557
+ 0.38829944 0.15062906 0.56216705 0.18185742 0.6512456  0.7673334
+ 0.6921521  0.13444562 0.66098654 0.73882574 0.5518804  0.636638
+ 0.1470888  0.26790044 0.5644376  0.32163015 0.30672133 0.20591822
+ 0.7535686  0.5598492  0.57146627 0.5090306  0.23226082 0.5301869
+ 0.42420208 0.2701305  0.15986624 0.6027366  0.38200918 0.13923167
+ 0.27499357 0.50205386 0.781072   0.26589024 0.50482947 0.39908305
+ 0.5967481  0.785523   0.15295185 0.55045915 0.4968086  0.56601596
+ 0.3852853  0.6611586  0.17399617 0.6474779  0.7595223  0.59945315
+ 0.46772552 0.13922785 0.16237558 0.5785516  0.5155239  0.49358988]
+predicted [0 0 1 1 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 1 1 1 1 0 1 1 0 0 1 0 0 0 1 0 1 1 1
+ 0 1 1 1 1 0 0 1 0 0 0 1 1 1 1 0 1 0 0 0 1 0 0 0 1 1 0 1 0 1 1 0 1 0 1 0 1
+ 0 1 1 1 0 0 0 1 1 0]
+expected [False False False  True False False False False False  True False False
+ False  True  True  True False False False  True  True False  True False
+  True  True False False  True  True False False False False  True  True
+  True False  True False  True  True False False  True False False  True
+ False  True  True  True False  True  True False False False  True False
+ False  True  True False  True False  True  True False  True  True  True
+ False  True False False False  True  True False False  True False  True]
+accuracy: 0.75
+confusion matrix: 
+[[34 11]
+ [10 29]]
+              precision    recall  f1-score   support
+
+       False       0.77      0.76      0.76        45
+        True       0.72      0.74      0.73        39
+
+    accuracy                           0.75        84
+   macro avg       0.75      0.75      0.75        84
+weighted avg       0.75      0.75      0.75        84
+
+macro avg f1-score: 0.7491110795050491
+macro avg (UAR): 0.7495726495726496
+Sensitivity:  0.7555555555555555
+Specificity:  0.7435897435897436
+g-mean:  0.7495487721445229
+-------- Model Performance ----------: 
+accuracy:  [0.70238095 0.75      ]
+gmean:  [0.70164642 0.74954877]
+f1_score:  [0.70132271 0.74911108]
+UAR:  [0.71025641 0.74957265]
+Cohen Kappa score:  [0.41275168 0.49829352]
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  2
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  4.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  25.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.345 0.675 0.67  0.67  0.669 0.419 0.702 0.734 0.685 0.707]
+ [0.25  0.649 0.65  0.636 0.647 0.359 0.682 0.699 0.677 0.68 ]
+ [0.251 0.651 0.653 0.651 0.648 0.372 0.681 0.708 0.708 0.683]
+ [0.261 0.627 0.643 0.59  0.618 0.296 0.629 0.711 0.506 0.608]
+ [0.268 0.624 0.648 0.539 0.595 0.35  0.654 0.72  0.578 0.65 ]
+ [0.456 0.73  0.726 0.726 0.725 0.531 0.754 0.786 0.739 0.763]
+ [0.    0.5   0.541 0.    0.351 0.    0.5   0.612 0.    0.38 ]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+2
+-------------------------------
+    
+    
+---------------------------
+KNN performance:
+[[0.52540266 0.76232994 0.76527294 0.75372756 0.75953405 0.29925864
+  0.64106672 0.76329849 0.54843206 0.64160377]
+ [0.34541774 0.67533597 0.66974448 0.67009209 0.66884709 0.41889563
+  0.70186425 0.7344367  0.68480302 0.70683449]]
+KNN mean:
+[0.4354102  0.71883295 0.71750871 0.71190983 0.71419057 0.35907713
+ 0.67146548 0.7488676  0.61661754 0.67421913]
+---------------------------
+---------------------------
+DT performance:
+[[0.48721385 0.72836488 0.73188153 0.71170982 0.72658234 0.20408356
+  0.59881507 0.70795587 0.54486531 0.59957842]
+ [0.25014309 0.64909091 0.65046458 0.6357115  0.64720091 0.35890214
+  0.68220192 0.69878049 0.67661464 0.67975208]]
+DT mean:
+[0.36867847 0.6887279  0.69117305 0.67371066 0.68689163 0.28149285
+ 0.64050849 0.70336818 0.61073998 0.63966525]
+---------------------------
+---------------------------
+RF performance:
+[[0.5875461  0.76638756 0.7699187  0.76154769 0.76595959 0.27643988
+  0.66501924 0.77044135 0.53650758 0.67167832]
+ [0.25081666 0.65091169 0.65284553 0.6512441  0.64795534 0.37243892
+  0.68066346 0.7083043  0.70751491 0.68289197]]
+RF mean:
+[0.41918138 0.70864963 0.71138211 0.7063959  0.70695746 0.3244394
+ 0.67284135 0.73937282 0.62201125 0.67728515]
+---------------------------
+---------------------------
+SVM performance:
+[[0.46284997 0.72547379 0.74146341 0.69162782 0.71937281 0.
+  0.5        0.74407666 0.         0.42661463]
+ [0.26088169 0.62663252 0.64320557 0.58999197 0.61770308 0.29563795
+  0.62898133 0.71080139 0.50552087 0.60791902]]
+SVM mean:
+[0.36186583 0.67605315 0.69233449 0.64080989 0.66853795 0.14781898
+ 0.56449067 0.72743902 0.25276043 0.51726682]
+---------------------------
+---------------------------
+GBM performance:
+[[0.56987609 0.78162575 0.78925668 0.77151564 0.78221509 0.05126339
+  0.5183871  0.75127758 0.10745269 0.46231474]
+ [0.26843505 0.62425993 0.6481417  0.53885507 0.59504175 0.34957345
+  0.65379638 0.72038328 0.57814947 0.65033546]]
+GBM mean:
+[0.41915557 0.70294284 0.71869919 0.65518535 0.68862842 0.20041842
+ 0.58609174 0.73583043 0.34280108 0.5563251 ]
+---------------------------
+---------------------------
+BDDAE performance:
+[[-0.09525268  0.4534188   0.4702381   0.385767    0.42836786  0.
+   0.5         0.73809524  0.          0.42465753]
+ [ 0.4555226   0.72991453  0.72619048  0.72559759  0.7252169   0.53103147
+   0.7540107   0.78571429  0.738545    0.76285528]]
+BDDAE mean:
+[0.18013496 0.59166667 0.59821429 0.5556823  0.57679238 0.26551573
+ 0.62700535 0.76190476 0.3692725  0.59375641]
+---------------------------
+---------------------------
+DUMMY performance:
+[[0.         0.5        0.54065041 0.         0.35089896 0.
+  0.5        0.74407666 0.         0.42661463]
+ [0.         0.5        0.54065041 0.         0.35089896 0.
+  0.5        0.61242741 0.         0.37979621]]
+DUMMY mean:
+[0.         0.5        0.54065041 0.         0.35089896 0.
+ 0.5        0.67825203 0.         0.40320542]
+---------------------------
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  4.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  25.0
+Number of windows / instances:  418
+---------------------------
+ALG Means: 
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.435 0.719 0.718 0.712 0.714 0.359 0.671 0.749 0.617 0.674]
+ [0.369 0.689 0.691 0.674 0.687 0.281 0.641 0.703 0.611 0.64 ]
+ [0.419 0.709 0.711 0.706 0.707 0.324 0.673 0.739 0.622 0.677]
+ [0.362 0.676 0.692 0.641 0.669 0.148 0.564 0.727 0.253 0.517]
+ [0.419 0.703 0.719 0.655 0.689 0.2   0.586 0.736 0.343 0.556]
+ [0.18  0.592 0.598 0.556 0.577 0.266 0.627 0.762 0.369 0.594]
+ [0.    0.5   0.541 0.    0.351 0.    0.5   0.678 0.    0.403]]
+Elapsed time: 3.8490293780962626 minutes
+Elapsed time: 0.0641504896349377 hours
