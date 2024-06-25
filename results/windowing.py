@@ -1,5 +1,5 @@
 #%%----------------------------------------------------------------
-# Filtering data 
+# Plot annotation decision methods (plot median voting figures)
 
 # import pickle
 # from scipy import signal
