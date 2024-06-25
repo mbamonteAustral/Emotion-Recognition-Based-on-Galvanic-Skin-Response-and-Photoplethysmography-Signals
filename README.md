@@ -13,7 +13,7 @@ CASE Dataset is made publicly available at https://gitlab.com/karan-shr/case_dat
 
 ## Scripts (folder)
 
-Each folder contains one specific experiment or simulation. To run the experiment, run the main.py file. 
+Each folder contains one specific experiment or simulation. To run the experiment, execute the main.py file. 
 
 Each folder contains:
 * python scripts
