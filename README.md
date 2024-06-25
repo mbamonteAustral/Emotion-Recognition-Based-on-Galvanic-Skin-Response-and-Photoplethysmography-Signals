@@ -27,7 +27,6 @@ Python scripts:
 
 Please refer to [requirements] (https://github.com/mbamonteAustral/Emotion-Recognition-Based-on-Galvanic-Skin-Response-and-Photoplethysmography-Signals/blob/main/requirements.md)
 
-[I'm an inline-style link](https://www.google.com)
 
 
 To run the simulation, execute the main.py file. 
