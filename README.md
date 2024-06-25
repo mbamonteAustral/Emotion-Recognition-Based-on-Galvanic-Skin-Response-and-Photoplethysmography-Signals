@@ -60,5 +60,5 @@ and their paths replaced conveniently in the **processdataf.py** code:
 
 Contains figures summarizing the results. 
 
-**show_global_results.py** plots the results. Each figure is build from data from specifics simulations folders, details in the scripts as comments. 
+**show_global_results.py** plots the results. Each figure is built from data in specific simulation folders, as detailed in the script comments.
 
