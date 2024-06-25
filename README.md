@@ -34,7 +34,7 @@ To run the scripts, the CASE dataset should be downloaded first. Then, three sub
 * annotations  (subfolder)
 * case  (downloaded dataset folder, "case" name is only an example)
 
-and replaced conveniently in the processdataf.py code:
+and replaced conveniently in the **processdataf.py** code:
 
     if platform == "linux" or platform == "linux2":
 
