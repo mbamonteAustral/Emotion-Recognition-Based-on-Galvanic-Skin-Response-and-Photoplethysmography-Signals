@@ -28,13 +28,13 @@ Python scripts:
 
 To run the simulation, execute the main.py file. 
 
-To run the scripts, the CASE dataset should be downloaded first. Then, three subfolders should be located within the downloaded dataset folder:  
+To run the scripts, the CASE dataset should be downloaded first. Suppose the downloaded folder is case_dataset. Then, three subfolders should be located within the downloaded dataset folder:  
 
-* physiological  (subfolder)
-* annotations  (subfolder)
-* case  (downloaded dataset folder, "case" name is only an example)
+* physiological  (relative path: case_dataset\data\interpolated\physiological)
+* annotations  (relative path: case_dataset\data\interpolated\annotations)
+* metadata (relative path: case_dataset\metadata)
 
-and their paths replaced conveniently in the **processdataf.py** code:
+These paths should then be replaced conveniently in the **processdataf.py** code::
 
     if platform == "linux" or platform == "linux2":
 
