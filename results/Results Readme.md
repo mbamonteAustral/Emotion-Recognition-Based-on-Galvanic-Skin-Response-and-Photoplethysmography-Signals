@@ -9,10 +9,10 @@ and figures.
 
 ## show_global_results.py
 
-It plots several figures contained in the paper: labeling schemes, window size effect, temporal-statistical vs nonlinear feature performance. 
+It plots several figures contained in the paper, including labeling schemes, the effect of window size, and the performance of temporal-statistical vs. nonlinear features.
 
 ## windowing.py
 
-It plots labels mapping figures contained in the paper
+It plots the label mapping figures contained in the paper.
 
 
