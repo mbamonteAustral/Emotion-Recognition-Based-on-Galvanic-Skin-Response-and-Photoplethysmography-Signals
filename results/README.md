@@ -1,4 +1,4 @@
-# Results - Readme
+# Results folder
 
 This folder contains two scripts:
 
