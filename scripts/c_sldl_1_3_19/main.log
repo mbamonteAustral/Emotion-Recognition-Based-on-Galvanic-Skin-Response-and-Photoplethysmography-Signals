@@ -1,0 +1,2394 @@
+2024-08-09 23:23:39.970330: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-09 23:23:45.270919: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-09 23:23:58.322056: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+    
+    
+-------------------------------
+participant:  1
+-------------------------------
+    
+    
+participant:  1
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=386 (92.344%)
+Class=0, n=32 (7.656%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=325 (77.751%)
+Class=0, n=93 (22.249%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  1
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.566 0.758 0.873 0.708 0.778 0.616 0.788 0.955 0.712 0.807]
+ [0.645 0.82  0.878 0.824 0.818 0.507 0.748 0.938 0.622 0.746]
+ [0.729 0.842 0.904 0.846 0.852 0.593 0.791 0.959 0.656 0.817]
+ [0.108 0.537 0.794 0.21  0.507 0.    0.5   0.923 0.    0.48 ]
+ [0.62  0.772 0.892 0.728 0.805 0.583 0.75  0.962 0.62  0.787]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.778 0.    0.437 0.    0.5   0.923 0.    0.48 ]]
+first participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+1
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  2
+-------------------------------
+    
+    
+participant:  2
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=325 (77.751%)
+Class=0, n=93 (22.249%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=328 (78.469%)
+Class=0, n=90 (21.531%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  2
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.521 0.746 0.854 0.708 0.758 0.497 0.739 0.837 0.709 0.747]
+ [0.383 0.731 0.806 0.701 0.718 0.542 0.789 0.84  0.789 0.774]
+ [0.511 0.719 0.837 0.743 0.732 0.753 0.897 0.931 0.873 0.9  ]
+ [0.    0.5   0.785 0.    0.44  0.    0.5   0.778 0.    0.437]
+ [0.258 0.597 0.823 0.406 0.602 0.039 0.52  0.778 0.07  0.464]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.785 0.    0.44  0.    0.5   0.778 0.    0.437]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+2
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  3
+-------------------------------
+    
+    
+participant:  3
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=354 (84.689%)
+Class=0, n=64 (15.311%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=331 (79.187%)
+Class=0, n=87 (20.813%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  3
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.784 0.87  0.933 0.861 0.891 0.254 0.612 0.833 0.483 0.621]
+ [0.729 0.834 0.895 0.841 0.84  0.279 0.645 0.816 0.554 0.645]
+ [0.77  0.873 0.931 0.862 0.889 0.384 0.602 0.828 0.581 0.613]
+ [0.73  0.828 0.921 0.81  0.864 0.    0.5   0.847 0.    0.459]
+ [0.78  0.853 0.933 0.84  0.886 0.    0.5   0.847 0.    0.459]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.792 0.    0.442 0.    0.5   0.847 0.    0.459]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+3
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  4
+-------------------------------
+    
+    
+participant:  4
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=376 (89.952%)
+Class=0, n=42 (10.048%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=306 (73.206%)
+Class=0, n=112 (26.794%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  4
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[ 0.203  0.589  0.744  0.459  0.583  0.021  0.509  0.895  0.049  0.489]
+ [ 0.186  0.579  0.675  0.531  0.568  0.076  0.548  0.809  0.349  0.537]
+ [ 0.264  0.63   0.732  0.546  0.629 -0.008  0.526  0.89   0.045  0.521]
+ [ 0.     0.5    0.732  0.     0.423  0.     0.5    0.9    0.     0.474]
+ [ 0.222  0.587  0.775  0.364  0.571  0.     0.5    0.9    0.     0.474]
+ [ 0.     0.     0.     0.     0.     0.     0.     0.     0.     0.   ]
+ [ 0.     0.5    0.732  0.     0.423  0.     0.5    0.9    0.     0.474]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+4
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  5
+-------------------------------
+    
+    
+participant:  5
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=285 (68.182%)
+Class=0, n=133 (31.818%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=328 (78.469%)
+Class=0, n=90 (21.531%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  5
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.81  0.907 0.935 0.904 0.905 0.523 0.769 0.787 0.761 0.759]
+ [0.829 0.907 0.936 0.897 0.905 0.431 0.718 0.751 0.683 0.716]
+ [0.831 0.907 0.936 0.92  0.904 0.56  0.754 0.789 0.762 0.756]
+ [0.701 0.817 0.909 0.799 0.849 0.515 0.756 0.792 0.744 0.756]
+ [0.765 0.852 0.926 0.838 0.878 0.258 0.609 0.737 0.458 0.599]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.785 0.    0.44  0.    0.5   0.682 0.    0.405]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+5
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  6
+-------------------------------
+    
+    
+participant:  6
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=335 (80.144%)
+Class=0, n=83 (19.856%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=310 (74.163%)
+Class=0, n=108 (25.837%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  6
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.357 0.666 0.782 0.6   0.671 0.395 0.677 0.833 0.616 0.693]
+ [0.283 0.67  0.737 0.631 0.663 0.276 0.647 0.763 0.555 0.641]
+ [0.265 0.63  0.737 0.617 0.631 0.274 0.67  0.818 0.608 0.677]
+ [0.    0.5   0.742 0.    0.426 0.    0.5   0.801 0.    0.445]
+ [0.074 0.528 0.746 0.203 0.486 0.016 0.506 0.804 0.033 0.455]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.742 0.    0.426 0.    0.5   0.801 0.    0.445]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+6
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  7
+-------------------------------
+    
+    
+participant:  7
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=383 (91.627%)
+Class=0, n=35 (8.373%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=387 (92.584%)
+Class=0, n=31 (7.416%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  7
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[ 0.298  0.61   0.931  0.402  0.643 -0.01   0.496  0.909  0.     0.476]
+ [ 0.303  0.649  0.897  0.509  0.639  0.235  0.626  0.883  0.476  0.607]
+ [ 0.131  0.576  0.923  0.393  0.582  0.147  0.545  0.902  0.262  0.55 ]
+ [ 0.     0.5    0.926  0.     0.481  0.     0.5    0.916  0.     0.478]
+ [ 0.     0.5    0.926  0.     0.481  0.     0.5    0.916  0.     0.478]
+ [ 0.     0.     0.     0.     0.     0.     0.     0.     0.     0.   ]
+ [ 0.     0.5    0.926  0.     0.481  0.     0.5    0.916  0.     0.478]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+7
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  8
+-------------------------------
+    
+    
+participant:  8
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=297 (71.053%)
+Class=0, n=121 (28.947%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=323 (77.273%)
+Class=0, n=95 (22.727%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  8
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.824 0.901 0.94  0.897 0.912 0.568 0.784 0.821 0.776 0.783]
+ [0.775 0.876 0.914 0.877 0.876 0.639 0.816 0.842 0.818 0.808]
+ [0.787 0.897 0.933 0.855 0.901 0.643 0.835 0.859 0.804 0.83 ]
+ [0.682 0.804 0.909 0.767 0.837 0.219 0.59  0.734 0.466 0.588]
+ [0.762 0.849 0.926 0.835 0.88  0.432 0.684 0.811 0.593 0.698]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.773 0.    0.436 0.    0.5   0.711 0.    0.415]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+8
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  9
+-------------------------------
+    
+    
+participant:  9
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=272 (65.072%)
+Class=0, n=146 (34.928%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=342 (81.818%)
+Class=0, n=76 (18.182%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  9
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.15  0.559 0.813 0.334 0.558 0.206 0.598 0.656 0.563 0.6  ]
+ [0.153 0.583 0.742 0.549 0.578 0.16  0.577 0.617 0.561 0.573]
+ [0.213 0.557 0.775 0.344 0.556 0.244 0.623 0.672 0.582 0.622]
+ [0.    0.5   0.818 0.    0.45  0.    0.5   0.651 0.    0.394]
+ [0.    0.5   0.818 0.    0.45  0.046 0.525 0.663 0.186 0.454]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.818 0.    0.45  0.    0.5   0.651 0.    0.394]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+9
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  10
+-------------------------------
+    
+    
+participant:  10
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=305 (72.967%)
+Class=0, n=113 (27.033%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=363 (86.842%)
+Class=0, n=55 (13.158%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  10
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.308 0.624 0.876 0.487 0.649 0.245 0.611 0.732 0.542 0.617]
+ [0.389 0.668 0.856 0.636 0.674 0.246 0.628 0.698 0.577 0.625]
+ [0.379 0.688 0.876 0.481 0.702 0.368 0.643 0.753 0.62  0.643]
+ [0.    0.5   0.868 0.    0.465 0.    0.5   0.73  0.    0.422]
+ [0.    0.5   0.868 0.    0.465 0.132 0.55  0.756 0.259 0.514]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.868 0.    0.465 0.    0.5   0.73  0.    0.422]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+10
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  11
+-------------------------------
+    
+    
+participant:  11
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=313 (74.880%)
+Class=0, n=105 (25.120%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=393 (94.019%)
+Class=0, n=25 (5.981%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  11
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[-0.024  0.491  0.923  0.     0.48   0.161  0.572  0.725  0.46   0.571]
+ [ 0.191  0.606  0.919  0.304  0.59   0.11   0.552  0.651  0.55   0.55 ]
+ [ 0.183  0.537  0.921  0.058  0.516  0.191  0.62   0.734  0.516  0.622]
+ [ 0.     0.5    0.94   0.     0.485  0.     0.5    0.749  0.     0.428]
+ [ 0.     0.5    0.94   0.     0.485  0.006  0.502  0.747  0.032  0.436]
+ [ 0.     0.     0.     0.     0.     0.     0.     0.     0.     0.   ]
+ [ 0.     0.5    0.94   0.     0.485  0.     0.5    0.749  0.     0.428]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+11
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  12
+-------------------------------
+    
+    
+participant:  12
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=342 (81.818%)
+Class=0, n=76 (18.182%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=357 (85.407%)
+Class=0, n=61 (14.593%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  12
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.459 0.707 0.892 0.601 0.724 0.511 0.745 0.859 0.714 0.753]
+ [0.425 0.727 0.861 0.691 0.72  0.372 0.693 0.806 0.634 0.676]
+ [0.48  0.725 0.875 0.619 0.73  0.362 0.682 0.833 0.627 0.689]
+ [0.    0.5   0.854 0.    0.461 0.    0.5   0.818 0.    0.45 ]
+ [0.259 0.599 0.883 0.35  0.608 0.    0.5   0.818 0.    0.45 ]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.854 0.    0.461 0.    0.5   0.818 0.    0.45 ]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+12
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  13
+-------------------------------
+    
+    
+participant:  13
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=381 (91.148%)
+Class=0, n=37 (8.852%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=340 (81.340%)
+Class=0, n=78 (18.660%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  13
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.245 0.61  0.82  0.415 0.611 0.202 0.594 0.904 0.313 0.594]
+ [0.314 0.629 0.783 0.602 0.631 0.317 0.646 0.89  0.468 0.637]
+ [0.289 0.654 0.818 0.604 0.665 0.411 0.686 0.935 0.346 0.704]
+ [0.    0.5   0.813 0.    0.449 0.    0.5   0.912 0.    0.477]
+ [0.    0.5   0.813 0.    0.449 0.    0.5   0.912 0.    0.477]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.813 0.    0.449 0.    0.5   0.912 0.    0.477]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+13
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  14
+-------------------------------
+    
+    
+participant:  14
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=370 (88.517%)
+Class=0, n=48 (11.483%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=418 (100.000%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+-----------Exception ----------------
+
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\pipeline.py", line 475, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\svm\_base.py", line 199, in fit
+    y = self._validate_targets(y)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\svm\_base.py", line 743, in _validate_targets
+    raise ValueError(
+ValueError: The number of classes has to be greater than one; got 1 class
+
+-------------------------------------
+    
+    
+-------------------------------
+LAST participant's saved data: 
+14
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  15
+-------------------------------
+    
+    
+participant:  15
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=387 (92.584%)
+Class=0, n=31 (7.416%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=351 (83.971%)
+Class=0, n=67 (16.029%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  15
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[ 0.353  0.657  0.842  0.595  0.675  0.     0.5    0.926  0.     0.481]
+ [ 0.314  0.639  0.816  0.512  0.634  0.123  0.558  0.871  0.347  0.536]
+ [ 0.446  0.661  0.847  0.61   0.679  0.116  0.568  0.916  0.218  0.576]
+ [ 0.     0.5    0.84   0.     0.456  0.     0.5    0.926  0.     0.481]
+ [-0.004  0.5    0.84   0.     0.456 -0.004  0.499  0.923  0.     0.48 ]
+ [ 0.     0.     0.     0.     0.     0.     0.     0.     0.     0.   ]
+ [ 0.     0.5    0.84   0.     0.456  0.     0.5    0.926  0.     0.481]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+15
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  16
+-------------------------------
+    
+    
+participant:  16
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=328 (78.469%)
+Class=0, n=90 (21.531%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=347 (83.014%)
+Class=0, n=71 (16.986%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  16
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[ 0.516  0.725  0.888  0.666  0.753  0.286  0.633  0.785  0.553  0.637]
+ [ 0.407  0.714  0.854  0.609  0.716  0.334  0.675  0.775  0.642  0.667]
+ [ 0.469  0.727  0.864  0.684  0.731  0.453  0.698  0.823  0.678  0.709]
+ [ 0.     0.5    0.83   0.     0.454  0.     0.5    0.785  0.     0.44 ]
+ [ 0.062  0.524  0.832  0.102  0.494 -0.018  0.494  0.775  0.     0.437]
+ [ 0.     0.     0.     0.     0.     0.     0.     0.     0.     0.   ]
+ [ 0.     0.5    0.83   0.     0.454  0.     0.5    0.785  0.     0.44 ]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+16
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  17
+-------------------------------
+    
+    
+participant:  17
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=316 (75.598%)
+Class=0, n=102 (24.402%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=333 (79.665%)
+Class=0, n=85 (20.335%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  17
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[ 0.398  0.681  0.825  0.629  0.695  0.233  0.606  0.744  0.533  0.612]
+ [ 0.498  0.739  0.835  0.731  0.742  0.395  0.712  0.785  0.686  0.713]
+ [ 0.58   0.762  0.864  0.748  0.772  0.393  0.669  0.78   0.695  0.678]
+ [ 0.     0.5    0.797  0.     0.443  0.     0.5    0.756  0.     0.431]
+ [-0.002  0.5    0.79   0.035  0.452  0.027  0.51   0.761  0.062  0.449]
+ [ 0.     0.     0.     0.     0.     0.     0.     0.     0.     0.   ]
+ [ 0.     0.5    0.797  0.     0.443  0.     0.5    0.756  0.     0.431]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+17
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  18
+-------------------------------
+    
+    
+participant:  18
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=414 (99.043%)
+Class=0, n=4 (0.957%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=418 (100.000%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+-----------Exception ----------------
+
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\pipeline.py", line 475, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\svm\_base.py", line 199, in fit
+    y = self._validate_targets(y)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\svm\_base.py", line 743, in _validate_targets
+    raise ValueError(
+ValueError: The number of classes has to be greater than one; got 1 class
+
+-------------------------------------
+    
+    
+-------------------------------
+LAST participant's saved data: 
+18
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  19
+-------------------------------
+    
+    
+participant:  19
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=418 (100.000%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=323 (77.273%)
+Class=0, n=95 (22.727%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+-----------Exception ----------------
+
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\pipeline.py", line 475, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\svm\_base.py", line 199, in fit
+    y = self._validate_targets(y)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\svm\_base.py", line 743, in _validate_targets
+    raise ValueError(
+ValueError: The number of classes has to be greater than one; got 1 class
+
+-------------------------------------
+    
+    
+-------------------------------
+LAST participant's saved data: 
+19
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  20
+-------------------------------
+    
+    
+participant:  20
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=382 (91.388%)
+Class=0, n=36 (8.612%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=340 (81.340%)
+Class=0, n=78 (18.660%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  20
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[ 0.399  0.669  0.847  0.599  0.696 -0.008  0.497  0.909  0.     0.476]
+ [ 0.309  0.658  0.787  0.611  0.645  0.026  0.538  0.837  0.226  0.532]
+ [ 0.448  0.693  0.837  0.646  0.706  0.009  0.574  0.911  0.097  0.586]
+ [ 0.     0.5    0.813  0.     0.449  0.     0.5    0.914  0.     0.477]
+ [ 0.134  0.548  0.828  0.222  0.532  0.029  0.511  0.914  0.049  0.494]
+ [ 0.     0.     0.     0.     0.     0.     0.     0.     0.     0.   ]
+ [ 0.     0.5    0.813  0.     0.449  0.     0.5    0.914  0.     0.477]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+20
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  21
+-------------------------------
+    
+    
+participant:  21
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=344 (82.297%)
+Class=0, n=74 (17.703%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=418 (100.000%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+-----------Exception ----------------
+
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\pipeline.py", line 475, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\svm\_base.py", line 199, in fit
+    y = self._validate_targets(y)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\svm\_base.py", line 743, in _validate_targets
+    raise ValueError(
+ValueError: The number of classes has to be greater than one; got 1 class
+
+-------------------------------------
+    
+    
+-------------------------------
+LAST participant's saved data: 
+21
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  22
+-------------------------------
+    
+    
+participant:  22
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=393 (94.019%)
+Class=0, n=25 (5.981%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=329 (78.708%)
+Class=0, n=89 (21.292%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  22
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.373 0.66  0.828 0.573 0.679 0.107 0.539 0.94  0.128 0.543]
+ [0.305 0.64  0.751 0.528 0.639 0.227 0.625 0.912 0.43  0.6  ]
+ [0.323 0.663 0.799 0.641 0.673 0.113 0.56  0.936 0.44  0.57 ]
+ [0.    0.5   0.787 0.    0.44  0.    0.5   0.94  0.    0.485]
+ [0.071 0.519 0.792 0.147 0.479 0.    0.5   0.94  0.    0.485]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.787 0.    0.44  0.    0.5   0.94  0.    0.485]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+22
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  23
+-------------------------------
+    
+    
+participant:  23
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=256 (61.244%)
+Class=0, n=162 (38.756%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=311 (74.402%)
+Class=0, n=107 (25.598%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  23
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.018 0.507 0.694 0.29  0.492 0.194 0.594 0.632 0.561 0.592]
+ [0.091 0.54  0.629 0.512 0.534 0.086 0.561 0.581 0.522 0.559]
+ [0.134 0.528 0.665 0.445 0.521 0.293 0.555 0.589 0.56  0.551]
+ [0.    0.5   0.744 0.    0.427 0.    0.5   0.612 0.    0.38 ]
+ [0.    0.5   0.744 0.    0.427 0.13  0.552 0.63  0.4   0.521]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.744 0.    0.427 0.    0.5   0.612 0.    0.38 ]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+23
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  24
+-------------------------------
+    
+    
+participant:  24
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=315 (75.359%)
+Class=0, n=103 (24.641%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=334 (79.904%)
+Class=0, n=84 (20.096%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  24
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.126 0.554 0.773 0.364 0.551 0.413 0.709 0.782 0.688 0.705]
+ [0.252 0.631 0.763 0.605 0.633 0.607 0.796 0.84  0.801 0.785]
+ [0.292 0.608 0.773 0.517 0.619 0.551 0.79  0.852 0.767 0.793]
+ [0.    0.5   0.799 0.    0.444 0.    0.5   0.754 0.    0.43 ]
+ [0.035 0.512 0.804 0.069 0.466 0.    0.5   0.754 0.    0.43 ]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.799 0.    0.444 0.    0.5   0.754 0.    0.43 ]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+24
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  25
+-------------------------------
+    
+    
+participant:  25
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=291 (69.617%)
+Class=0, n=127 (30.383%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=324 (77.512%)
+Class=0, n=94 (22.488%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  25
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[ 0.199  0.585  0.765  0.471  0.59   0.537  0.779  0.794  0.773  0.766]
+ [ 0.256  0.644  0.744  0.617  0.64   0.425  0.713  0.758  0.684  0.713]
+ [ 0.302  0.66   0.792  0.481  0.667  0.545  0.741  0.783  0.77   0.74 ]
+ [ 0.     0.5    0.775  0.     0.437  0.043  0.516  0.703  0.139  0.447]
+ [-0.005  0.498  0.773  0.     0.436  0.045  0.519  0.703  0.093  0.446]
+ [ 0.     0.     0.     0.     0.     0.     0.     0.     0.     0.   ]
+ [ 0.     0.5    0.775  0.     0.437  0.     0.5    0.696  0.     0.41 ]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+25
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  26
+-------------------------------
+    
+    
+participant:  26
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=352 (84.211%)
+Class=0, n=66 (15.789%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=295 (70.574%)
+Class=0, n=123 (29.426%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  26
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.185 0.587 0.691 0.512 0.588 0.135 0.558 0.813 0.382 0.56 ]
+ [0.23  0.616 0.673 0.616 0.611 0.267 0.623 0.799 0.503 0.617]
+ [0.224 0.588 0.687 0.584 0.59  0.127 0.58  0.82  0.474 0.583]
+ [0.    0.5   0.706 0.    0.414 0.    0.5   0.842 0.    0.457]
+ [0.051 0.519 0.713 0.154 0.458 0.014 0.5   0.842 0.04  0.457]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.706 0.    0.414 0.    0.5   0.842 0.    0.457]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+26
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  27
+-------------------------------
+    
+    
+participant:  27
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=322 (77.033%)
+Class=0, n=96 (22.967%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=326 (77.990%)
+Class=0, n=92 (22.010%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  27
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[ 0.709  0.838  0.907  0.825  0.854  0.488  0.758  0.809  0.747  0.743]
+ [ 0.588  0.781  0.847  0.797  0.78   0.436  0.71   0.794  0.694  0.705]
+ [ 0.698  0.85   0.904  0.833  0.856  0.481  0.756  0.828  0.745  0.755]
+ [ 0.414  0.669  0.849  0.542  0.691  0.     0.5    0.77   0.     0.435]
+ [ 0.497  0.717  0.864  0.61   0.742 -0.005  0.498  0.768  0.     0.434]
+ [ 0.     0.     0.     0.     0.     0.     0.     0.     0.     0.   ]
+ [ 0.     0.5    0.78   0.     0.438  0.     0.5    0.77   0.     0.435]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+27
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  28
+-------------------------------
+    
+    
+participant:  28
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=371 (88.756%)
+Class=0, n=47 (11.244%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=395 (94.498%)
+Class=0, n=23 (5.502%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  28
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[ 0.036  0.515  0.945  0.057  0.506 -0.009  0.498  0.868  0.043  0.477]
+ [ 0.124  0.564  0.89   0.313  0.544  0.117  0.555  0.794  0.422  0.54 ]
+ [ 0.161  0.589  0.935  0.266  0.574  0.141  0.507  0.849  0.253  0.507]
+ [ 0.     0.5    0.945  0.     0.486  0.     0.5    0.888  0.     0.47 ]
+ [-0.003  0.499  0.943  0.     0.485 -0.008  0.495  0.878  0.     0.467]
+ [ 0.     0.     0.     0.     0.     0.     0.     0.     0.     0.   ]
+ [ 0.     0.5    0.945  0.     0.486  0.     0.5    0.888  0.     0.47 ]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+28
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  29
+-------------------------------
+    
+    
+participant:  29
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=418 (100.000%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=389 (93.062%)
+Class=0, n=29 (6.938%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+-----------Exception ----------------
+
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\pipeline.py", line 475, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\svm\_base.py", line 199, in fit
+    y = self._validate_targets(y)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Javier\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\svm\_base.py", line 743, in _validate_targets
+    raise ValueError(
+ValueError: The number of classes has to be greater than one; got 1 class
+
+-------------------------------------
+    
+    
+-------------------------------
+LAST participant's saved data: 
+29
+-------------------------------
+    
+    
+    
+    
+-------------------------------
+participant:  30
+-------------------------------
+    
+    
+participant:  30
+corriendo en PC gamer:
+Window size (sec):  3.0
+step (sec):  3.0
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Nearest multiple of 16 to 3000 is: 3008
+Nearest multiple of 16 to 3000 is: 3008
+['gsr_chunks', 'ppg_chunks', 'val_chunks', 'aro_chunks', 'time_chunks', 'tag_chunks', 'video']
+----- Extracting features...
+Class Imbalance test (arousal)....
+Multiclass distribution
+Class=1, n=395 (94.498%)
+Class=0, n=23 (5.502%)
+Class Imbalance test (valence)....
+Multiclass distribution
+Class=1, n=332 (79.426%)
+Class=0, n=86 (20.574%)
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+------------- Evaluating model --------------
+arousal and valece = ok
+------------- Evaluating model --------------
+-------------------------------------
+-------------------------------------
+participant:  30
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[ 0.592  0.809  0.861  0.797  0.795 -0.01   0.496  0.938  0.     0.484]
+ [ 0.422  0.721  0.818  0.704  0.722 -0.063  0.467  0.883  0.069  0.469]
+ [ 0.511  0.737  0.838  0.724  0.746 -0.007  0.512  0.938  0.     0.509]
+ [ 0.319  0.625  0.83   0.507  0.645  0.     0.5    0.945  0.     0.486]
+ [ 0.016  0.504  0.794  0.033  0.452  0.     0.5    0.945  0.     0.486]
+ [ 0.     0.     0.     0.     0.     0.     0.     0.     0.     0.   ]
+ [ 0.     0.5    0.794  0.     0.443  0.     0.5    0.945  0.     0.486]]
+participant performance loaded
+    
+    
+-------------------------------
+LAST participant's saved data: 
+30
+-------------------------------
+    
+    
+---------------------------
+KNN performance:
+[[ 0.56637135  0.75758838  0.87311266  0.70755303  0.77771943  0.61575782
+   0.78803981  0.95464576  0.71235522  0.806513  ]
+ [ 0.52106701  0.74581755  0.85429733  0.70823822  0.75776876  0.49689714
+   0.73927715  0.83710801  0.70886406  0.74678204]
+ [ 0.78374346  0.86994949  0.9329849   0.86117778  0.89148005  0.25425507
+   0.61230159  0.83269454  0.48263505  0.62100593]
+ [ 0.20338721  0.58866325  0.74401858  0.45873826  0.58319446  0.02072093
+   0.50851707  0.89477352  0.04933772  0.48879909]
+ [ 0.80980241  0.90651831  0.935482    0.9039447   0.90476956  0.52307404
+   0.76889447  0.78704994  0.76138194  0.75929861]
+ [ 0.35715365  0.66640762  0.78228804  0.59996788  0.6708634   0.39548739
+   0.67687908  0.83269454  0.61575194  0.69342465]
+ [ 0.29751045  0.6101552   0.93054588  0.40186031  0.64332306 -0.00992132
+   0.49608637  0.90905923  0.          0.47615081]
+ [ 0.82355151  0.90117424  0.9402439   0.89694868  0.91161014  0.56775011
+   0.78393899  0.82073171  0.7759276   0.78342933]
+ [ 0.1496183   0.55896008  0.81335656  0.33411467  0.55828039  0.20614064
+   0.59755291  0.65569106  0.56311409  0.60018136]
+ [ 0.30816573  0.6237988   0.87566783  0.48663662  0.6489595   0.24548483
+   0.61129277  0.73199768  0.54195628  0.61701459]
+ [-0.02439118  0.49108974  0.92346109  0.          0.48007561  0.16073784
+   0.57178611  0.7246806   0.45954265  0.57112383]
+ [ 0.45944539  0.70714286  0.89239257  0.60104648  0.7242129   0.51111864
+   0.74496849  0.85888502  0.71396264  0.75334897]
+ [ 0.24533638  0.60955882  0.82038328  0.41498185  0.61077597  0.20150336
+   0.59389339  0.9043554   0.31340733  0.5943836 ]
+ [ 0.35268147  0.65722222  0.84198606  0.5954546   0.67479073  0.
+   0.5         0.92584204  0.          0.48073957]
+ [ 0.5158229   0.72487395  0.88757259  0.66640105  0.75303669  0.2858859
+   0.63304924  0.78466899  0.55273949  0.63693814]
+ [ 0.39803268  0.68053327  0.8253194   0.62878564  0.6953274   0.23260953
+   0.60552878  0.74384437  0.53296651  0.61196135]
+ [ 0.39916117  0.66932773  0.84698026  0.59877849  0.69559464 -0.00775786
+   0.49736842  0.90911731  0.          0.4761689 ]
+ [ 0.3726738   0.65973801  0.82775842  0.57349997  0.67890482  0.10665687
+   0.53910256  0.94018583  0.12844571  0.54282274]
+ [ 0.01785217  0.50662573  0.69372822  0.28975566  0.49152332  0.19370059
+   0.59447115  0.6315331   0.56104664  0.59168587]
+ [ 0.12608269  0.55393642  0.7728223   0.36412802  0.55059484  0.4126648
+   0.70878391  0.78228804  0.68755134  0.70486868]
+ [ 0.19900961  0.58454861  0.76544715  0.47108001  0.59001607  0.5365005
+   0.7793634   0.79425087  0.77337206  0.76586927]
+ [ 0.18536939  0.58654288  0.69140534  0.5121052   0.58779651  0.1345703
+   0.55761905  0.81341463  0.38227325  0.55966756]
+ [ 0.70865827  0.83789141  0.90662021  0.82518598  0.85361365  0.48818802
+   0.75764836  0.80876887  0.74748774  0.74282521]
+ [ 0.03636364  0.51538462  0.94500581  0.05699003  0.5058     -0.00893411
+   0.49783784  0.86840883  0.04349588  0.47712708]
+ [ 0.59192771  0.80851901  0.86149826  0.79746309  0.7946403  -0.01042639
+   0.49615385  0.93774681  0.          0.48390127]]
+KNN mean:
+[0.37617589 0.67287873 0.84737515 0.55019345 0.68138689 0.26210659
+ 0.62641419 0.82737747 0.44430461 0.62344126]
+---------------------------
+---------------------------
+DT performance:
+[[ 0.64468592  0.81993371  0.87804878  0.82394151  0.81812826  0.50725688
+   0.74819501  0.93768873  0.62189999  0.74585925]
+ [ 0.38326247  0.73129735  0.80609756  0.70135403  0.71757406  0.54158061
+   0.78894571  0.8398374   0.78915521  0.77370342]
+ [ 0.72922523  0.83358586  0.89465738  0.84073932  0.83972563  0.27906479
+   0.64496032  0.81567944  0.55441807  0.64547821]
+ [ 0.18637008  0.57850196  0.67456446  0.53060545  0.56796785  0.07597651
+   0.54751778  0.8087108   0.34911819  0.53702794]
+ [ 0.82905262  0.90651831  0.93554007  0.89656217  0.90508477  0.43057123
+   0.71836396  0.75133566  0.68344474  0.71590075]
+ [ 0.2829094   0.66983871  0.7369338   0.63055179  0.66306417  0.27632078
+   0.64743018  0.76312427  0.55546606  0.64103744]
+ [ 0.30345403  0.64940958  0.89692218  0.5092362   0.63905937  0.2345298
+   0.62574224  0.8829849   0.4764714   0.60745671]
+ [ 0.77487074  0.87623737  0.91382114  0.87715043  0.87551809  0.63909546
+   0.81606101  0.84198606  0.81761173  0.80838867]
+ [ 0.1525214   0.58296218  0.74210221  0.54864382  0.5783918   0.15985514
+   0.57701058  0.61713124  0.56064082  0.57330562]
+ [ 0.38905464  0.66796547  0.85644599  0.63601158  0.67439463  0.24624444
+   0.62782502  0.69837398  0.57667984  0.62450522]
+ [ 0.19136167  0.60596154  0.91881533  0.3039101   0.59005709  0.11003753
+   0.55196848  0.65075494  0.55019507  0.55006756]
+ [ 0.42495954  0.72698413  0.86114983  0.6908613   0.72014791  0.37211544
+   0.69289916  0.80632985  0.63360306  0.67645462]
+ [ 0.31394847  0.62872899  0.78263647  0.6023658   0.63069524  0.31720743
+   0.64615385  0.89001161  0.46769254  0.63672169]
+ [ 0.31441903  0.63916667  0.81591173  0.51184071  0.6339191   0.12322058
+   0.55841768  0.87078978  0.34659341  0.53623659]
+ [ 0.40658449  0.71447479  0.85406504  0.60859356  0.71618936  0.33363787
+   0.67537879  0.77508711  0.64167436  0.6669228 ]
+ [ 0.49772775  0.73868464  0.83472706  0.73076907  0.74228362  0.39452423
+   0.71191441  0.78484321  0.68635265  0.71337491]
+ [ 0.30891834  0.6582458   0.78699187  0.61116806  0.64533107  0.02592274
+   0.53763495  0.83745645  0.22642388  0.53184126]
+ [ 0.30460912  0.64008838  0.75116144  0.52793202  0.63948376  0.22749673
+   0.62451923  0.91167247  0.42953852  0.59972815]
+ [ 0.09052177  0.54007698  0.62897793  0.51187981  0.53387729  0.08587475
+   0.56066572  0.58141696  0.52204249  0.55929319]
+ [ 0.25166781  0.63142825  0.76271777  0.60520331  0.63251866  0.60667043
+   0.79567449  0.83977933  0.80074257  0.78526606]
+ [ 0.25609398  0.64414457  0.74390244  0.61694205  0.63977952  0.42523662
+   0.71338196  0.75842044  0.68356221  0.71289205]
+ [ 0.23025717  0.61649425  0.67264808  0.61618783  0.61095817  0.26685318
+   0.62257937  0.79878049  0.50330126  0.61725049]
+ [ 0.5878354   0.78090909  0.84692218  0.79662883  0.77998904  0.43618732
+   0.71046086  0.79442509  0.69371072  0.70538429]
+ [ 0.12354924  0.56448718  0.8898374   0.3134958   0.54360032  0.11733779
+   0.55511024  0.79448316  0.42233192  0.54009179]
+ [ 0.42155164  0.72120841  0.81829268  0.70364583  0.7224911  -0.06347158
+   0.46711538  0.88281069  0.06892024  0.46883861]]
+DT mean:
+[0.37597648 0.68669337 0.81215563 0.62984881 0.68240919 0.28677387
+ 0.64663706 0.79735656 0.54646364 0.63892109]
+---------------------------
+---------------------------
+RF performance:
+[[ 0.72866553  0.84152778  0.90441347  0.84599488  0.85181186  0.59318864
+   0.79070513  0.95940767  0.65577842  0.81657071]
+ [ 0.51130101  0.71904987  0.83745645  0.74345333  0.73186747  0.7530644
+   0.89720328  0.93072009  0.87327234  0.90041967]
+ [ 0.76997897  0.87316919  0.93066202  0.86178304  0.88876559  0.38358044
+   0.60246032  0.82764228  0.58105377  0.61340776]
+ [ 0.26372682  0.630413    0.73188153  0.54584793  0.62937872 -0.00840775
+   0.52568279  0.88989547  0.04472136  0.52062095]
+ [ 0.83132414  0.90651831  0.93565621  0.91982734  0.90448714  0.55976939
+   0.75395036  0.78931475  0.7620397   0.75634583]
+ [ 0.26465674  0.62989736  0.73699187  0.61679581  0.63110049  0.27395968
+   0.67027258  0.81806039  0.60760383  0.67651798]
+ [ 0.13078747  0.57560729  0.92346109  0.39274815  0.58150461  0.14661865
+   0.54524291  0.90197445  0.26197433  0.54986866]
+ [ 0.78725517  0.89658144  0.9329849   0.85511858  0.90101259  0.64266826
+   0.83464412  0.85865273  0.80432014  0.83042556]
+ [ 0.21264256  0.55735294  0.7753194   0.3435434   0.55600775  0.24403223
+   0.62297619  0.67235772  0.58221376  0.62168601]
+ [ 0.37939005  0.68765015  0.8757259   0.48059674  0.7017341   0.36758118
+   0.64314516  0.75325203  0.61989021  0.64302033]
+ [ 0.18296338  0.53737179  0.92113821  0.05773503  0.5159807   0.19096787
+   0.6199496   0.73426249  0.51644237  0.62211135]
+ [ 0.47974339  0.72511905  0.87549361  0.61863483  0.72990694  0.36207386
+   0.68152311  0.83263647  0.62687565  0.68874597]
+ [ 0.28928057  0.65378151  0.81800232  0.60389508  0.66453763  0.41142333
+   0.68643725  0.935482    0.34564432  0.70408671]
+ [ 0.44578654  0.66134921  0.84715447  0.60984319  0.67857487  0.11565301
+   0.56752699  0.91620209  0.21801319  0.57615782]
+ [ 0.46874321  0.72658613  0.86358885  0.68401229  0.73088373  0.45270282
+   0.6978851   0.82299652  0.67766585  0.70864558]
+ [ 0.58015593  0.76151218  0.86358885  0.74762297  0.77164892  0.3929337
+   0.66940799  0.77984901  0.69463306  0.67785726]
+ [ 0.44780274  0.69301471  0.83739837  0.64601432  0.7059528   0.00864248
+   0.57412281  0.91126597  0.09665217  0.58637502]
+ [ 0.3225507   0.66319444  0.79924506  0.64062165  0.67334133  0.11283152
+   0.56025641  0.93554007  0.43992471  0.5698123 ]
+ [ 0.13387753  0.52842375  0.66521487  0.44489614  0.52104749  0.29279633
+   0.555125    0.58873403  0.5596397   0.55147092]
+ [ 0.29230296  0.60811052  0.77253194  0.51710898  0.61851537  0.55061356
+   0.7899386   0.85174216  0.76679893  0.79257586]
+ [ 0.30226112  0.65959912  0.79221835  0.48110465  0.6674326   0.54518018
+   0.7406565   0.78263647  0.76951274  0.74011683]
+ [ 0.22442258  0.58800177  0.68716609  0.58395552  0.59036242  0.12701529
+   0.5802381   0.82044135  0.47365958  0.58262043]
+ [ 0.69845078  0.84956124  0.90441347  0.83323077  0.85640029  0.48093093
+   0.75589015  0.82787456  0.74519912  0.7553961 ]
+ [ 0.16061668  0.58855769  0.93542393  0.26620353  0.57392714  0.14057696
+   0.50685989  0.84941928  0.25261573  0.50722737]
+ [ 0.51130536  0.73737002  0.83757259  0.72389517  0.74552268 -0.00698239
+   0.51160256  0.93774681  0.          0.50888659]]
+RF mean:
+[0.41679968 0.69197282 0.84018815 0.60257933 0.69686821 0.32533658
+ 0.65534812 0.83712427 0.5190458  0.66003878]
+---------------------------
+---------------------------
+SVM performance:
+[[0.10764611 0.53722222 0.79425087 0.20967747 0.50734472 0.
+  0.5        0.92346109 0.         0.48009142]
+ [0.         0.5        0.78466899 0.         0.43967123 0.
+  0.5        0.77752613 0.         0.43740096]
+ [0.7299229  0.82796717 0.92102207 0.80990299 0.86380107 0.
+  0.5        0.84692218 0.         0.45853883]
+ [0.         0.5        0.73205575 0.         0.4226349  0.
+  0.5        0.89953542 0.         0.47354268]
+ [0.70079501 0.81717172 0.90923345 0.79862521 0.84914547 0.51486657
+  0.75588765 0.7916957  0.74444    0.75579947]
+ [0.         0.5        0.7416957  0.         0.42583714 0.
+  0.5        0.8014518  0.         0.4448734 ]
+ [0.         0.5        0.92584204 0.         0.48073957 0.
+  0.5        0.91631823 0.         0.47814698]
+ [0.68240324 0.80414457 0.90905923 0.76738558 0.8371083  0.21859591
+  0.59039346 0.7344367  0.46562783 0.58775195]
+ [0.         0.5        0.81823461 0.         0.44999681 0.
+  0.5        0.65075494 0.         0.39419437]
+ [0.         0.5        0.8684669  0.         0.46478205 0.
+  0.5        0.7296748  0.         0.42183581]
+ [0.         0.5        0.9402439  0.         0.4845822  0.
+  0.5        0.74883856 0.         0.42816961]
+ [0.         0.5        0.85406504 0.         0.46063673 0.
+  0.5        0.81823461 0.         0.44999681]
+ [0.         0.5        0.81347271 0.         0.4485614  0.
+  0.5        0.91155633 0.         0.47685068]
+ [0.         0.5        0.83977933 0.         0.45644093 0.
+  0.5        0.92584204 0.         0.48073957]
+ [0.         0.5        0.83013937 0.         0.45358533 0.
+  0.5        0.78466899 0.         0.43967123]
+ [0.         0.5        0.7966899  0.         0.44339972 0.
+  0.5        0.75598142 0.         0.43050208]
+ [0.         0.5        0.81347271 0.         0.4485614  0.
+  0.5        0.91393728 0.         0.47749883]
+ [0.         0.5        0.78710801 0.         0.44043021 0.
+  0.5        0.9402439  0.         0.4845822 ]
+ [0.         0.5        0.74407666 0.         0.42661463 0.
+  0.5        0.61242741 0.         0.37979621]
+ [0.         0.5        0.79907085 0.         0.44413656 0.
+  0.5        0.75360046 0.         0.42972459]
+ [0.         0.5        0.77514518 0.         0.43664421 0.04336585
+  0.51610301 0.70342625 0.13883409 0.44702191]
+ [0.         0.5        0.70574913 0.         0.41372569 0.
+  0.5        0.84216028 0.         0.45714023]
+ [0.41403314 0.66874053 0.84907085 0.54180611 0.6906713  0.
+  0.5        0.77038328 0.         0.43513069]
+ [0.         0.5        0.94500581 0.         0.48584688 0.
+  0.5        0.88763066 0.         0.4702199 ]
+ [0.31899193 0.62464721 0.83019744 0.50679978 0.6453806  0.
+  0.5        0.94500581 0.         0.48584688]]
+SVM mean:
+[0.11815169 0.55119574 0.82911266 0.14536789 0.51681116 0.03107313
+ 0.51449536 0.81542857 0.05395608 0.46820269]
+---------------------------
+---------------------------
+GBM performance:
+[[ 0.61983464  0.77162247  0.89216028  0.72753928  0.80489726  0.58260733
+   0.75        0.96173055  0.62019073  0.78658455]
+ [ 0.25790585  0.5969697   0.82299652  0.40635041  0.60153146  0.03895673
+   0.52020202  0.77752613  0.06987242  0.46436138]
+ [ 0.77993737  0.85309343  0.93304297  0.83979639  0.8857245   0.
+   0.5         0.84692218  0.          0.45853883]
+ [ 0.22242257  0.58692571  0.77508711  0.36427601  0.57078392  0.
+   0.5         0.89953542  0.          0.47354268]
+ [ 0.76451012  0.8520202   0.92590012  0.83794439  0.87820342  0.25750078
+   0.60887173  0.73670151  0.457706    0.598805  ]
+ [ 0.07357409  0.52759531  0.74645761  0.20255681  0.48572159  0.01641791
+   0.50555556  0.80383275  0.03333333  0.45546799]
+ [ 0.          0.5         0.92584204  0.          0.48073957  0.
+   0.5         0.91631823  0.          0.47814698]
+ [ 0.76169881  0.8494476   0.92578397  0.83513477  0.8799699   0.43240758
+   0.68398099  0.81109175  0.59294124  0.69795178]
+ [ 0.          0.5         0.81823461  0.          0.44999681  0.04572201
+   0.52533069  0.66277584  0.18575144  0.4542575 ]
+ [ 0.          0.5         0.8684669   0.          0.46478205  0.13226036
+   0.54984848  0.75586527  0.25901882  0.51362706]
+ [ 0.          0.5         0.9402439   0.          0.4845822   0.00576446
+   0.501875    0.74651568  0.03162278  0.43629036]
+ [ 0.25939429  0.59880952  0.88281069  0.35011788  0.60815035  0.
+   0.5         0.81823461  0.          0.44999681]
+ [ 0.          0.5         0.81347271  0.          0.4485614   0.
+   0.5         0.91155633  0.          0.47685068]
+ [-0.00425532  0.5         0.83977933  0.          0.45644093 -0.0037037
+   0.49871795  0.92346109  0.          0.48009142]
+ [ 0.06180385  0.52420168  0.83240418  0.10231982  0.49357922 -0.01752015
+   0.49389205  0.77508711  0.          0.43660017]
+ [-0.00185254  0.50032308  0.78960511  0.03535534  0.45209387  0.02734271
+   0.50954545  0.76074332  0.06177391  0.4491085 ]
+ [ 0.13370891  0.54795168  0.82775842  0.22185103  0.53232093  0.02881356
+   0.51118421  0.91393728  0.04933772  0.49410139]
+ [ 0.07128442  0.51919192  0.79186992  0.14714045  0.47949318  0.
+   0.5         0.9402439   0.          0.4845822 ]
+ [ 0.          0.5         0.74407666  0.          0.42661463  0.12973187
+   0.5519802   0.62950058  0.39998954  0.52082357]
+ [ 0.03511479  0.51180556  0.80389082  0.06868867  0.46645315  0.
+   0.5         0.75360046  0.          0.42972459]
+ [-0.00459184  0.4984375   0.77270616  0.          0.43586414  0.04545749
+   0.51854553  0.70348432  0.0933474   0.44572343]
+ [ 0.05116887  0.51898099  0.71289199  0.15356078  0.45830481  0.01381381
+   0.5         0.84216028  0.04023739  0.45714023]
+ [ 0.49737703  0.71656881  0.86353078  0.61006149  0.74167994 -0.00452489
+   0.4984375   0.76800232  0.          0.4343532 ]
+ [-0.00327869  0.49875     0.94262485  0.          0.48521454 -0.00826446
+   0.49459459  0.87804878  0.          0.46749245]
+ [ 0.01641791  0.5040404   0.79430894  0.0328244   0.4515894   0.
+   0.5         0.94500581  0.          0.48584688]]
+GBM mean:
+[0.18368701 0.57906942 0.83943786 0.23742072 0.55693173 0.06891134
+ 0.52890248 0.81927526 0.11580491 0.49320039]
+---------------------------
+---------------------------
+BDDAE performance:
+[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+BDDAE mean:
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------
+---------------------------
+DUMMY performance:
+[[0.         0.5        0.77752613 0.         0.43740096 0.
+  0.5        0.92346109 0.         0.48009142]
+ [0.         0.5        0.78466899 0.         0.43967123 0.
+  0.5        0.77752613 0.         0.43740096]
+ [0.         0.5        0.79192799 0.         0.44192603 0.
+  0.5        0.84692218 0.         0.45853883]
+ [0.         0.5        0.73205575 0.         0.4226349  0.
+  0.5        0.89953542 0.         0.47354268]
+ [0.         0.5        0.78466899 0.         0.43967123 0.
+  0.5        0.68182346 0.         0.40538477]
+ [0.         0.5        0.7416957  0.         0.42583714 0.
+  0.5        0.8014518  0.         0.4448734 ]
+ [0.         0.5        0.92584204 0.         0.48073957 0.
+  0.5        0.91631823 0.         0.47814698]
+ [0.         0.5        0.77276423 0.         0.43588745 0.
+  0.5        0.71051103 0.         0.41536888]
+ [0.         0.5        0.81823461 0.         0.44999681 0.
+  0.5        0.65075494 0.         0.39419437]
+ [0.         0.5        0.8684669  0.         0.46478205 0.
+  0.5        0.7296748  0.         0.42183581]
+ [0.         0.5        0.9402439  0.         0.4845822  0.
+  0.5        0.74883856 0.         0.42816961]
+ [0.         0.5        0.85406504 0.         0.46063673 0.
+  0.5        0.81823461 0.         0.44999681]
+ [0.         0.5        0.81347271 0.         0.4485614  0.
+  0.5        0.91155633 0.         0.47685068]
+ [0.         0.5        0.83977933 0.         0.45644093 0.
+  0.5        0.92584204 0.         0.48073957]
+ [0.         0.5        0.83013937 0.         0.45358533 0.
+  0.5        0.78466899 0.         0.43967123]
+ [0.         0.5        0.7966899  0.         0.44339972 0.
+  0.5        0.75598142 0.         0.43050208]
+ [0.         0.5        0.81347271 0.         0.4485614  0.
+  0.5        0.91393728 0.         0.47749883]
+ [0.         0.5        0.78710801 0.         0.44043021 0.
+  0.5        0.9402439  0.         0.4845822 ]
+ [0.         0.5        0.74407666 0.         0.42661463 0.
+  0.5        0.61242741 0.         0.37979621]
+ [0.         0.5        0.79907085 0.         0.44413656 0.
+  0.5        0.75360046 0.         0.42972459]
+ [0.         0.5        0.77514518 0.         0.43664421 0.
+  0.5        0.69622532 0.         0.4104393 ]
+ [0.         0.5        0.70574913 0.         0.41372569 0.
+  0.5        0.84216028 0.         0.45714023]
+ [0.         0.5        0.77990708 0.         0.43815772 0.
+  0.5        0.77038328 0.         0.43513069]
+ [0.         0.5        0.94500581 0.         0.48584688 0.
+  0.5        0.88763066 0.         0.4702199 ]
+ [0.         0.5        0.79430894 0.         0.44266287 0.
+  0.5        0.94500581 0.         0.48584688]]
+DUMMY mean:
+[0.         0.5        0.80864344 0.         0.44650135 0.
+ 0.5        0.80978862 0.         0.44582748]
+---------------------------
+Current folder: C:\Users\Javier\Dropbox\c_sldl_1_3_19
+-------------------------------------
+----- RESULTS from .csv files ------
+-------------------------------------
+---------------------------
+ALG Means: 
+-rows: alg : KNN = 0; DT = 1; RF = 2; SVM = 3; GBM = 4; BDDAE = 5; DUMMY = 5
+columns:
+'val_cohen','val_uar', 'val_acc', 'val_gm',  'val_f1',  'aro_cohen','aro_uar', 'aro_acc', 'aro_gm',  'aro_f1'
+-------------------------------------------------------------
+  v_c   v_u   v_a   v_g   v_f1  a_c   a_u   a_a   a_g   a_f1
+[[0.376 0.673 0.847 0.55  0.681 0.262 0.626 0.827 0.444 0.623]
+ [0.376 0.687 0.812 0.63  0.682 0.287 0.647 0.797 0.546 0.639]
+ [0.417 0.692 0.84  0.603 0.697 0.325 0.655 0.837 0.519 0.66 ]
+ [0.118 0.551 0.829 0.145 0.517 0.031 0.514 0.815 0.054 0.468]
+ [0.184 0.579 0.839 0.237 0.557 0.069 0.529 0.819 0.116 0.493]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.5   0.809 0.    0.447 0.    0.5   0.81  0.    0.446]]
+-------------------------------------------------------------
+Standard Deviation of each metric:
+[[0.24  0.119 0.073 0.229 0.124 0.206 0.103 0.085 0.283 0.109]
+ [0.197 0.095 0.081 0.148 0.098 0.18  0.088 0.086 0.173 0.089]
+ [0.212 0.11  0.077 0.2   0.114 0.211 0.105 0.087 0.244 0.106]
+ [0.239 0.106 0.066 0.279 0.138 0.108 0.052 0.092 0.169 0.07 ]
+ [0.267 0.121 0.066 0.295 0.15  0.144 0.061 0.09  0.189 0.082]
+ [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.    0.    0.059 0.    0.018 0.    0.    0.097 0.    0.03 ]]
+-------------------------------------------------------------
+std_dev/mean [percentage]:
+[[ 64.  18.   9.  42.  18.  79.  16.  10.  64.  17.]
+ [ 52.  14.  10.  23.  14.  63.  14.  11.  32.  14.]
+ [ 51.  16.   9.  33.  16.  65.  16.  10.  47.  16.]
+ [202.  19.   8. 192.  27. 348.  10.  11. 313.  15.]
+ [145.  21.   8. 124.  27. 209.  12.  11. 163.  17.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   7.   0.   4.   0.   0.  12.   0.   7.]]
+-------------------------------------
+Current folder: C:\Users\Javier\Dropbox\c_sldl_1_3_19
+-------------------------------------
+----- RESULTS ------
+-------------------------------------
+Window size (sec):  3.008
+step (sec):  3.008
+overlap:  True
+perc. of overlap:  0.0
+overlap duration (sec):  0.0
+Number of windows / instances:  418
+Elapsed time: 75.87842533588409 minutes
+Elapsed time: 1.264640422264735 hours
