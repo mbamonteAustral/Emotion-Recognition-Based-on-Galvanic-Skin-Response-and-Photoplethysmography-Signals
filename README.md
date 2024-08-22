@@ -64,7 +64,6 @@ These paths should then be replaced conveniently in the **processdataf.py** code
 
 ## Results (folder)
 
-Contains figures summarizing the results. 
-
-**show_global_results.py** plots the results. Each figure is built from data in specific simulation folders, as detailed in the script comments.
+The folder contains figures summarizing the results.
+See the README file in the Results folder
 
