@@ -60,7 +60,7 @@ These paths should then be replaced conveniently in the **processdataf.py** code
             annotation_base = r"C:\Users\mbamo\Desktop\Datasets\CASE\interpolated\annotations\sub_"  # replace with current downloaded annotation folder
             seqs_order_num_base = r"C:\Users\mbamo\Desktop\Datasets\CASE\metadata\seqs_"   # replace with current downloaded root folder
 
-
+See [README.md](https://github.com/mbamonteAustral/Emotion-Recognition-Based-on-Galvanic-Skin-Response-and-Photoplethysmography-Signals/blob/main/scripts/README.md) in the Scripts folder. 
 
 ## Results (folder)
 
