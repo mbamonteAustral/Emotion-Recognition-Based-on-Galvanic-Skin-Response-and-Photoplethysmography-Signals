@@ -65,5 +65,5 @@ These paths should then be replaced conveniently in the **processdataf.py** code
 ## Results (folder)
 
 The folder contains figures summarizing the results.
-See the README file in the Results folder
+See the [README file]([url](https://github.com/mbamonteAustral/Emotion-Recognition-Based-on-Galvanic-Skin-Response-and-Photoplethysmography-Signals/blob/main/results/README.md)) in the Results folder
 
