@@ -1,11 +1,15 @@
-# Emotion Recognition Based on Galvanic Skin Response and Photoplethysmography Signals
+# Determining the Optimal Window Duration to Enhance Emotion Recognition Based on Galvanic Skin Response and Photoplethysmography Signals
 
 This repository contains the simulations necessary to reproduce our article using the CASE dataset.
+https://www.mdpi.com/2079-9292/13/16/3333
 
 Article authors:
 Marcos F. Bamonte,
 Marcelo Risk,
 Victor Herrero.
+
+## Citation
+Bamonte, M.F.; Risk, M.; Herrero, V. Determining the Optimal Window Duration to Enhance Emotion Recognition Based on Galvanic Skin Response and Photoplethysmography Signals. Electronics 2024, 13, 3333. https://doi.org/10.3390/electronics13163333
 
 ##  CASE Dataset
 CASE Dataset is made publicly available at https://gitlab.com/karan-shr/case_dataset.
