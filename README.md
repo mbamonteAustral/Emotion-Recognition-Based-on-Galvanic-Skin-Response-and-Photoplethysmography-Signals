@@ -1,6 +1,7 @@
 # Determining the Optimal Window Duration to Enhance Emotion Recognition Based on Galvanic Skin Response and Photoplethysmography Signals
 
 This repository contains the simulations necessary to reproduce our article using the CASE dataset.
+
 https://www.mdpi.com/2079-9292/13/16/3333
 
 Article authors:
